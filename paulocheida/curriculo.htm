@@ -1,0 +1,832 @@
+<html>
+<head>
+<title>....:: Paulo Cheida Sans</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script language="JavaScript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.0
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && document.getElementById) x=document.getElementById(n); return x;
+}
+
+function MM_nbGroup(event, grpName) { //v3.0
+  var i,img,nbArr,args=MM_nbGroup.arguments;
+  if (event == "init" && args.length > 2) {
+    if ((img = MM_findObj(args[2])) != null && !img.MM_init) {
+      img.MM_init = true; img.MM_up = args[3]; img.MM_dn = img.src;
+      if ((nbArr = document[grpName]) == null) nbArr = document[grpName] = new Array();
+      nbArr[nbArr.length] = img;
+      for (i=4; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+        if (!img.MM_up) img.MM_up = img.src;
+        img.src = img.MM_dn = args[i+1];
+        nbArr[nbArr.length] = img;
+    } }
+  } else if (event == "over") {
+    document.MM_nbOver = nbArr = new Array();
+    for (i=1; i < args.length-1; i+=3) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = (img.MM_dn && args[i+2]) ? args[i+2] : args[i+1];
+      nbArr[nbArr.length] = img;
+    }
+  } else if (event == "out" ) {
+    for (i=0; i < document.MM_nbOver.length; i++) {
+      img = document.MM_nbOver[i]; img.src = (img.MM_dn) ? img.MM_dn : img.MM_up; }
+  } else if (event == "down") {
+    if ((nbArr = document[grpName]) != null)
+      for (i=0; i < nbArr.length; i++) { img=nbArr[i]; img.src = img.MM_up; img.MM_dn = 0; }
+    document[grpName] = nbArr = new Array();
+    for (i=2; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = img.MM_dn = args[i+1];
+      nbArr[nbArr.length] = img;
+  } }
+}
+//-->
+</script>
+<STYLE>
+TEXTAREA {BORDER: #000000 1px solid; FONT-SIZE: 9px; FONT-FAMILY: arial; COLOR: #FFFFFF; }
+INPUT {BORDER: #000000 1px solid; FONT-SIZE: 9px; COLOR: #000000; FONT-FAMILY: verdana; BACKGROUND-COLOR: #ffffff}
+BODY,TABLE,TD,P,DIV,SPAN {FONT-SIZE: 8pt;COLOR: #000000; FONT-FAMILY: Verdana, Helvetica, Arial; TEXT-DECORATION: none}
+img {border: 0px;}
+BODY {
+scrollbar-face-color:#000000;
+scrollbar-arrow-color:#FFFFFF;
+scrollbar-track-color:#000000;
+scrollbar-shadow-color:#000000;
+scrollbar-highlight-color:#000000;
+scrollbar-3dlight-color:#333333;
+scrollbar-darkshadow-Color:#333333}
+</STYLE>
+</head>
+
+<body bgcolor="#000000" text="#FFFFFF" onLoad="MM_preloadImages('imagens/layout/lay_r2_c9_f3.gif','imagens/layout/lay_r2_c9_f2.gif','imagens/layout/lay_r2_c9_f4.gif','imagens/layout/lay_r2_c13_f3.gif','imagens/layout/lay_r2_c13_f2.gif','imagens/layout/lay_r2_c13_f4.gif','imagens/layout/lay_r2_c20_f3.gif','imagens/layout/lay_r2_c20_f2.gif','imagens/layout/lay_r2_c20_f4.gif','imagens/layout/lay_r3_c3_f3.gif','imagens/layout/lay_r3_c3_f2.gif','imagens/layout/lay_r3_c3_f4.gif','imagens/layout/lay_r3_c5_f3.gif','imagens/layout/lay_r3_c5_f2.gif','imagens/layout/lay_r3_c5_f4.gif','imagens/layout/lay_r3_c17_f3.gif','imagens/layout/lay_r3_c17_f2.gif','imagens/layout/lay_r3_c17_f4.gif','imagens/layout/lay_r6_c2_f3.gif','imagens/layout/lay_r6_c2_f2.gif','imagens/layout/lay_r6_c2_f4.gif','imagens/layout/lay_r6_c7_f3.gif','imagens/layout/lay_r6_c7_f2.gif','imagens/layout/lay_r6_c7_f4.gif','imagens/layout/lay_r6_c11_f3.gif','imagens/layout/lay_r6_c11_f2.gif','imagens/layout/lay_r6_c11_f4.gif','imagens/layout/lay_r6_c15_f3.gif','imagens/layout/lay_r6_c15_f2.gif','imagens/layout/lay_r6_c15_f4.gif','imagens/layout/lay_r6_c20_f3.gif','imagens/layout/lay_r6_c20_f2.gif','imagens/layout/lay_r6_c20_f4.gif')">
+<table border="0" cellpadding="0" cellspacing="0" width="800" align="center">
+  <!-- fwtable fwsrc="Modelo13.png" fwbase="lay.gif" fwstyle="Dreamweaver" fwdocid = "742308039" fwnested="0" -->
+  <tr> 
+    <td><img src="imagens/layout/spacer.gif" width="381" height="1" border="0"></td>
+    <td><img src="imagens/layout/spacer.gif" width="2" height="1" border="0"></td>
+    <td><img src="imagens/layout/spacer.gif" width="47" height="1" border="0"></td>
+    <td><img src="imagens/layout/spacer.gif" width="11" height="1" border="0"></td>
+    <td><img src="imagens/layout/spacer.gif" width="16" height="1" border="0"></td>
+    <td><img src="imagens/layout/spacer.gif" width="9" height="1" border="0"></td>
+    <td><img src="imagens/layout/spacer.gif" width="16" height="1" border="0"></td>
+    <td><img src="imagens/layout/spacer.gif" width="12" height="1" border="0"></td>
+    <td><img src="imagens/layout/spacer.gif" width="34" height="1" border="0"></td>
+    <td><img src="imagens/layout/spacer.gif" width="11" height="1" border="0"></td>
+    <td><img src="imagens/layout/spacer.gif" width="19" height="1" border="0"></td>
+    <td><img src="imagens/layout/spacer.gif" width="12" height="1" border="0"></td>
+    <td><img src="imagens/layout/spacer.gif" width="10" height="1" border="0"></td>
+    <td><img src="imagens/layout/spacer.gif" width="11" height="1" border="0"></td>
+    <td><img src="imagens/layout/spacer.gif" width="35" height="1" border="0"></td>
+    <td><img src="imagens/layout/spacer.gif" width="16" height="1" border="0"></td>
+    <td><img src="imagens/layout/spacer.gif" width="77" height="1" border="0"></td>
+    <td><img src="imagens/layout/spacer.gif" width="2" height="1" border="0"></td>
+    <td><img src="imagens/layout/spacer.gif" width="11" height="1" border="0"></td>
+    <td><img src="imagens/layout/spacer.gif" width="53" height="1" border="0"></td>
+    <td><img src="imagens/layout/spacer.gif" width="3" height="1" border="0"></td>
+    <td><img src="imagens/layout/spacer.gif" width="12" height="1" border="0"></td>
+    <td><img src="imagens/layout/spacer.gif" width="1" height="1" border="0"></td>
+  </tr>
+  <tr> 
+    <td rowspan="8"><img name="lay_r1_c1" src="imagens/layout/lay_r1_c1.gif" width="381" height="111" border="0"></td>
+    <td colspan="21"><img name="lay_r1_c2" src="imagens/layout/lay_r1_c2.gif" width="419" height="47" border="0"></td>
+    <td><img src="imagens/layout/spacer.gif" width="1" height="47" border="0"></td>
+  </tr>
+  <tr> 
+    <td colspan="7"><img name="lay_r2_c2" src="imagens/layout/lay_r2_c2.gif" width="113" height="1" border="0"></td>
+    <td rowspan="2" colspan="3"><a href="#" onMouseOut="MM_nbGroup('out');"  onMouseOver="MM_nbGroup('over','lay_r2_c9','imagens/layout/lay_r2_c9_f2.gif','imagens/layout/lay_r2_c9_f4.gif',1);"  onClick="MM_nbGroup('down','navbar1','lay_r2_c9','imagens/layout/lay_r2_c9_f3.gif',1);" ><img name="lay_r2_c9" src="imagens/layout/lay_r2_c9.gif" width="64" height="13" border="0"></a></td>
+    <td><img name="lay_r2_c12" src="imagens/layout/lay_r2_c12.gif" width="12" height="1" border="0"></td>
+    <td rowspan="2" colspan="3"><a href="#" onMouseOut="MM_nbGroup('out');"  onMouseOver="MM_nbGroup('over','lay_r2_c13','imagens/layout/lay_r2_c13_f2.gif','imagens/layout/lay_r2_c13_f4.gif',1);"  onClick="MM_nbGroup('down','navbar1','lay_r2_c13','imagens/layout/lay_r2_c13_f3.gif',1);" ><img name="lay_r2_c13" src="imagens/layout/lay_r2_c13.gif" width="56" height="13" border="0"></a></td>
+    <td colspan="4"><img name="lay_r2_c16" src="imagens/layout/lay_r2_c16.gif" width="106" height="1" border="0"></td>
+    <td rowspan="2"><a href="#" onMouseOut="MM_nbGroup('out');"  onMouseOver="MM_nbGroup('over','lay_r2_c20','imagens/layout/lay_r2_c20_f2.gif','imagens/layout/lay_r2_c20_f4.gif',1);"  onClick="MM_nbGroup('down','navbar1','lay_r2_c20','imagens/layout/lay_r2_c20_f3.gif',1);" ><img name="lay_r2_c20" src="imagens/layout/lay_r2_c20.gif" width="53" height="13" border="0"></a></td>
+    <td rowspan="2" colspan="2"><img name="lay_r2_c21" src="imagens/layout/lay_r2_c21.gif" width="15" height="13" border="0"></td>
+    <td><img src="imagens/layout/spacer.gif" width="1" height="1" border="0"></td>
+  </tr>
+  <tr> 
+    <td><img name="lay_r3_c2" src="imagens/layout/lay_r3_c2.gif" width="2" height="12" border="0"></td>
+    <td><a href="#" onMouseOut="MM_nbGroup('out');"  onMouseOver="MM_nbGroup('over','lay_r3_c3','imagens/layout/lay_r3_c3_f2.gif','imagens/layout/lay_r3_c3_f4.gif',1);"  onClick="MM_nbGroup('down','navbar1','lay_r3_c3','imagens/layout/lay_r3_c3_f3.gif',1);" ><img name="lay_r3_c3" src="imagens/layout/lay_r3_c3.gif" width="47" height="12" border="0"></a></td>
+    <td><img name="lay_r3_c4" src="imagens/layout/lay_r3_c4.gif" width="11" height="12" border="0"></td>
+    <td colspan="3"><a href="#" onMouseOut="MM_nbGroup('out');"  onMouseOver="MM_nbGroup('over','lay_r3_c5','imagens/layout/lay_r3_c5_f2.gif','imagens/layout/lay_r3_c5_f4.gif',1);"  onClick="MM_nbGroup('down','navbar1','lay_r3_c5','imagens/layout/lay_r3_c5_f3.gif',1);" ><img name="lay_r3_c5" src="imagens/layout/lay_r3_c5.gif" width="41" height="12" border="0"></a></td>
+    <td><img name="lay_r3_c8" src="imagens/layout/lay_r3_c8.gif" width="12" height="12" border="0"></td>
+    <td><img name="lay_r3_c12" src="imagens/layout/lay_r3_c12.gif" width="12" height="12" border="0"></td>
+    <td><img name="lay_r3_c16" src="imagens/layout/lay_r3_c16.gif" width="16" height="12" border="0"></td>
+    <td><a href="#" onMouseOut="MM_nbGroup('out');"  onMouseOver="MM_nbGroup('over','lay_r3_c17','imagens/layout/lay_r3_c17_f2.gif','imagens/layout/lay_r3_c17_f4.gif',1);"  onClick="MM_nbGroup('down','navbar1','lay_r3_c17','imagens/layout/lay_r3_c17_f3.gif',1);" ><img name="lay_r3_c17" src="imagens/layout/lay_r3_c17.gif" width="77" height="12" border="0"></a></td>
+    <td rowspan="2" colspan="2"><img name="lay_r3_c18" src="imagens/layout/lay_r3_c18.gif" width="13" height="14" border="0"></td>
+    <td><img src="imagens/layout/spacer.gif" width="1" height="12" border="0"></td>
+  </tr>
+  <tr> 
+    <td rowspan="2" colspan="16"><img name="lay_r4_c2" src="imagens/layout/lay_r4_c2.gif" width="338" height="12" border="0"></td>
+    <td rowspan="2" colspan="3"><img name="lay_r4_c20" src="imagens/layout/lay_r4_c20.gif" width="68" height="12" border="0"></td>
+    <td><img src="imagens/layout/spacer.gif" width="1" height="2" border="0"></td>
+  </tr>
+  <tr> 
+    <td colspan="2"><img name="lay_r5_c18" src="imagens/layout/lay_r5_c18.gif" width="13" height="10" border="0"></td>
+    <td><img src="imagens/layout/spacer.gif" width="1" height="10" border="0"></td>
+  </tr>
+  <tr> 
+    <td colspan="4"><a href="#" onMouseOut="MM_nbGroup('out');"  onMouseOver="MM_nbGroup('over','lay_r6_c2','imagens/layout/lay_r6_c2_f2.gif','imagens/layout/lay_r6_c2_f4.gif',1);"  onClick="MM_nbGroup('down','navbar1','lay_r6_c2','imagens/layout/lay_r6_c2_f3.gif',1);" ><img name="lay_r6_c2" src="imagens/layout/lay_r6_c2.gif" width="76" height="12" border="0"></a></td>
+    <td><img name="lay_r6_c6" src="imagens/layout/lay_r6_c6.gif" width="9" height="12" border="0"></td>
+    <td colspan="3"><a href="#" onMouseOut="MM_nbGroup('out');"  onMouseOver="MM_nbGroup('over','lay_r6_c7','imagens/layout/lay_r6_c7_f2.gif','imagens/layout/lay_r6_c7_f4.gif',1);"  onClick="MM_nbGroup('down','navbar1','lay_r6_c7','imagens/layout/lay_r6_c7_f3.gif',1);" ><img name="lay_r6_c7" src="imagens/layout/lay_r6_c7.gif" width="62" height="12" border="0"></a></td>
+    <td rowspan="2"><img name="lay_r6_c10" src="imagens/layout/lay_r6_c10.gif" width="11" height="14" border="0"></td>
+    <td colspan="3"><a href="#" onMouseOut="MM_nbGroup('out');"  onMouseOver="MM_nbGroup('over','lay_r6_c11','imagens/layout/lay_r6_c11_f2.gif','imagens/layout/lay_r6_c11_f4.gif',1);"  onClick="MM_nbGroup('down','navbar1','lay_r6_c11','imagens/layout/lay_r6_c11_f3.gif',1);" ><img name="lay_r6_c11" src="imagens/layout/lay_r6_c11.gif" width="41" height="12" border="0"></a></td>
+    <td rowspan="2"><img name="lay_r6_c14" src="imagens/layout/lay_r6_c14.gif" width="11" height="14" border="0"></td>
+    <td colspan="3"><a href="#" onMouseOut="MM_nbGroup('out');"  onMouseOver="MM_nbGroup('over','lay_r6_c15','imagens/layout/lay_r6_c15_f2.gif','imagens/layout/lay_r6_c15_f4.gif',1);"  onClick="MM_nbGroup('down','navbar1','lay_r6_c15','imagens/layout/lay_r6_c15_f3.gif',1);" ><img name="lay_r6_c15" src="imagens/layout/lay_r6_c15.gif" width="128" height="12" border="0"></a></td>
+    <td rowspan="2" colspan="2"><img name="lay_r6_c18" src="imagens/layout/lay_r6_c18.gif" width="13" height="14" border="0"></td>
+    <td colspan="2"><a href="#" onMouseOut="MM_nbGroup('out');"  onMouseOver="MM_nbGroup('over','lay_r6_c20','imagens/layout/lay_r6_c20_f2.gif','imagens/layout/lay_r6_c20_f4.gif',1);"  onClick="MM_nbGroup('down','navbar1','lay_r6_c20','imagens/layout/lay_r6_c20_f3.gif',1);" ><img name="lay_r6_c20" src="imagens/layout/lay_r6_c20.gif" width="56" height="12" border="0"></a></td>
+    <td rowspan="2"><img name="lay_r6_c22" src="imagens/layout/lay_r6_c22.gif" width="12" height="14" border="0"></td>
+    <td><img src="imagens/layout/spacer.gif" width="1" height="12" border="0"></td>
+  </tr>
+  <tr> 
+    <td rowspan="3" colspan="8"><img name="lay_r7_c2" src="imagens/layout/lay_r7_c2.gif" width="147" height="33" border="0"></td>
+    <td rowspan="3" colspan="3"><img name="lay_r7_c11" src="imagens/layout/lay_r7_c11.gif" width="41" height="33" border="0"></td>
+    <td rowspan="3" colspan="3"><img name="lay_r7_c15" src="imagens/layout/lay_r7_c15.gif" width="128" height="33" border="0"></td>
+    <td rowspan="3" colspan="2"><img name="lay_r7_c20" src="imagens/layout/lay_r7_c20.gif" width="56" height="33" border="0"></td>
+    <td><img src="imagens/layout/spacer.gif" width="1" height="2" border="0"></td>
+  </tr>
+  <tr> 
+    <td rowspan="2"><img name="lay_r8_c10" src="imagens/layout/lay_r8_c10.gif" width="11" height="31" border="0"></td>
+    <td rowspan="2"><img name="lay_r8_c14" src="imagens/layout/lay_r8_c14.gif" width="11" height="31" border="0"></td>
+    <td rowspan="2" colspan="2"><img name="lay_r8_c18" src="imagens/layout/lay_r8_c18.gif" width="13" height="31" border="0"></td>
+    <td rowspan="2"><img name="lay_r8_c22" src="imagens/layout/lay_r8_c22.gif" width="12" height="31" border="0"></td>
+    <td><img src="imagens/layout/spacer.gif" width="1" height="25" border="0"></td>
+  </tr>
+  <tr> 
+    <td rowspan="2"><img name="lay_r9_c1" src="imagens/layout/lay_r9_c1.gif" width="381" height="489" border="0"></td>
+    <td><img src="imagens/layout/spacer.gif" width="1" height="6" border="0"></td>
+  </tr>
+  <tr> 
+    <td colspan="21">
+      <div id="Layer1" style="position:absolute; left:497px; top:132px; width:393px; height:467px; z-index:1; overflow: auto"> 
+        <p align="center"><font face="Arial, Helvetica, sans-serif" size="2"><b><font color="#FFFFFF">CURR&Iacute;CULO 
+          RESUMIDO</font></b></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><b>PAULO 
+          CHEIDA SANS</b></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2" color="#FFFFFF">. 
+          Nome Completo: Paulo de Tarso Cheida Sans.<br>
+          . Nome Art&iacute;stico: Paulo Cheida Sans.<br>
+          . Natural de Campinas, SP (1955).<br>
+          </font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><b>FORMA&Ccedil;&Atilde;O 
+          ART&Iacute;STICA</b></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2" color="#FFFFFF">. 
+          Curso de Educa&ccedil;&atilde;o Art&iacute;stica - habilita&ccedil;&atilde;o: 
+          Artes Pl&aacute;sticas (Conclu&iacute;do em 1978) - PUCCamp - Pontif&iacute;cia 
+          Universidade Cat&oacute;lica de Campinas.<br>
+          . Mestrado em Filosofia da Educa&ccedil;&atilde;o - Pontif&iacute;cia 
+          Universidade Cat&oacute;lica de Campinas (Conclu&iacute;do em 1992).<br>
+          . Doutorando em Artes - UNICAMP - 2006.</font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><b>ALGUNS 
+          TRABALHOS REALIZADOS / ATUA&Ccedil;&Atilde;O PROFISSIONAL</b></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2" color="#FFFFFF">. 
+          Diretor do Museu Olho Latino, Atibaia, SP.<br>
+          . Coordenador do Departamento de Artes Pl&aacute;sticas do Instituto 
+          de Artes e Comunica&ccedil;&otilde;es da PUCCamp - 1994/93/92/91/88/87/86/85.<br>
+          . Professor do curso de Artes Visuais - CLC - da PUC-Campinas. Disciplinas: 
+          Pintura; Gravura; Pl&aacute;stica.<br>
+          . Membro Sat&eacute;lite do N&uacute;cleo de gravura do Rio Grande do 
+          Sul - Porto Alegre, RS..<br>
+          . Curador de mostras nacionais e internacionais.<br>
+          . Participou como membro de v&aacute;rias comiss&otilde;es julgadoras 
+          de sal&otilde;es de arte.<br>
+          . Editor da revista virtual de artes visuais &quot;Olho Latino&quot;.<br>
+          . Proferiu diversas palestras e ministrou cursos para professores sobre 
+          Artes Pl&aacute;sticas e Arte - Educa&ccedil;&atilde;o em v&aacute;rios 
+          Encontros e Congressos.<br>
+          . Fez capas de livros e revistas. Ilustrou revistas. Criou cartazes 
+          e v&aacute;rios prospectos de eventos.<br>
+          . Escreveu textos cr&iacute;ticos, ensaios e apresenta&ccedil;&otilde;es 
+          sobre a produ&ccedil;&atilde;o art&iacute;stica de v&aacute;rios artistas 
+          pl&aacute;sticos.</font></p>
+        <p></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><br>
+          <b>ATIVIDADES ART&Iacute;STICAS</b></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2" color="#FFFFFF">Principais 
+          Curadorias</font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2" color="#FFFFFF">. 
+          &quot;Grabados &amp; Gravuras - 96&quot; - III Mostra Latino-Americana 
+          de Gravura - Corumb&aacute;, MS; Bras&iacute;lia, DF; Campinas, SP - 
+          1996.<br>
+          . &quot;Grabados &amp; Gravuras - 95&quot; - II Mostra Latino-Americana 
+          de Gravura - Centro de Ci&ecirc;ncias, Letras e Artes - Campinas, SP 
+          - 1995.<br>
+          . &quot;Xilo &amp; Print&quot; - Mostra Internacional de Gravura em 
+          Relevo - Casa da Cultura da Am&eacute;rica Latina - Universidade de 
+          Bras&iacute;lia - Bras&iacute;lia, DF - 1995.<br>
+          . &quot;Grabados Argentinos, Hoy&quot; - Casa da Cultura da Am&eacute;rica 
+          Latina - Universidade de Bras&iacute;lia - Bras&iacute;lia, DF - 1995.<br>
+          . &quot;Xilo &amp; Print&quot; - Mostra Internacional de Gravura em 
+          Relevo - Museu de Arte Contempor&acirc;nea de Campinas - Campinas, SP 
+          - 1994.<br>
+          . &quot;Mostra Internacional de Gravura&quot; - Casa da Cultura da Am&eacute;rica 
+          Latina - Universidade de Bras&iacute;lia - Bras&iacute;lia, DF - 1994.<br>
+          . &quot;Grabados &amp; Brasil&quot; - Palacio de Las Convenciones - 
+          La Habana, Cuba - 1993.<br>
+          . &quot;Grabadores Latinoamericanos&quot; - Casa de La Cultura - La 
+          Paz, Bol&iacute;via - 1992. <br>
+          . &quot;Grabados &amp; Gravuras&quot; - Casa da Cultura da Am&eacute;rica 
+          Latina - Universidade de Bras&iacute;lia - Bras&iacute;lia, DF - 1992.<br>
+          . &quot;Contexto Latino-Americano&quot; - Bloco do Departamento de Comunica&ccedil;&atilde;o 
+          e Arte - Universidade Federal de Mato Grosso do Sul - Campo Grande, 
+          MS - 1992.<br>
+          . &quot;Grabados &amp; Gravuras&quot; - Reitoria - Pontif&iacute;cia 
+          Universidade Cat&oacute;lica de Campinas - Campinas, SP - 1991.<br>
+          . 13&ordm; Sal&atilde;o de Arte Contempor&acirc;nea de Campinas - &quot;Simbologias 
+          e Altern&acirc;ncias: Momentos Ocupacionais da Express&atilde;o Pl&aacute;stica&quot; 
+          - &aacute;rea V&iacute;deo-Arte - Museu de Arte Contempor&acirc;nea 
+          &quot;Jos&eacute; Pancetti&quot; - Campinas, SP - 1988.<br>
+          . &quot;Gravuras&quot; - Exposi&ccedil;&atilde;o de Gravura Latino-Americana 
+          - I Festival Latino-Americano de Arte e Cultura - Universidade de Bras&iacute;lia 
+          - Galeria do 1&ordm; andar anexo do Teatro Nacional - Bras&iacute;lia, 
+          DF - 1987.<br>
+          . &quot;Gravuras&quot; - Artistas Portugueses - Galeria de Arte - Departamento 
+          de Artes Pl&aacute;sticas - IAC - PUCCamp - Campinas, SP - 1987.<br>
+          . &quot;Gravuras&quot; - Professores da Pontif&iacute;cia Universidade 
+          Cat&oacute;lica do Peru - Galeria de Arte - Departamento de Artes Pl&aacute;sticas 
+          - IAC - PUCCamp - Campinas, SP - 1987.<br>
+          . &quot;Exposi&ccedil;&atilde;o Internacional de Gravura&quot; - II 
+          Congresso de Educa&ccedil;&atilde;o - Secretaria Municipal de Educa&ccedil;&atilde;o 
+          - ITA - Instituto Tecnol&oacute;gico Aeroespacial - S&atilde;o Jos&eacute; 
+          dos Campos, SP - 1987.<br>
+          . &quot;Gravuras&quot; - Brasil &amp; Alemanha - Instituto Goethe - 
+          S&atilde;o Paulo, SP - 1987.<br>
+          . I Bienal Internacional de Gravura - Campinas - (autor do projeto de 
+          extens&atilde;o pela Pontif&iacute;cia Universidade Cat&oacute;lica 
+          de Campinas) - Museu de Arte Contempor&acirc;nea &quot;Jos&eacute; Pancetti&quot; 
+          - itinerante em v&aacute;rias cidades - 1987.</font></p>
+        <p></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2" color="#FFFFFF">Comiss&otilde;es 
+          Julgadoras</font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"> 
+          Participou como membro de comiss&otilde;es de sele&ccedil;&atilde;o 
+          e premia&ccedil;&atilde;o em v&aacute;rios concursos e Sal&otilde;es 
+          de Arte. Entre os quais, citamos:</font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2" color="#FFFFFF">. 
+          Membro da Comiss&atilde;o Julgadora do Edital n&ordm;01 - Inicia&ccedil;&atilde;o 
+          Art&iacute;stico e de Cultura - Escola Municipal de Cultura e Arte - 
+          Campinas, SP - 1995.<br>
+          . X, IX Encontro de Artes Pl&aacute;sticas de Atibaia - Atibaia, SP 
+          - 1995/92.<br>
+          . IV EsPCExp&ocirc; - Escola Preparat&oacute;ria de Cadetes do Ex&eacute;rcito 
+          - Campinas, SP - 1992.<br>
+          . I, II Sal&atilde;o de Arte Contempor&acirc;nea - SINDCON ART - Campinas, 
+          SP - 1994/92.<br>
+          . 13&ordm;, 12&ordm;, 11&ordm;, 10&ordm;, 8&ordm; Sal&atilde;o de Artes 
+          Pl&aacute;sticas - Rio Claro, SP - 1995/94/93/92/90.<br>
+          . XXX, XX Sal&atilde;o Ararense de Artes Pl&aacute;sticas - Araras, 
+          SP - 1992/1987.<br>
+          . 1&ordm; Sal&atilde;o de Artes Pl&aacute;sticas - Capivari, SP - 1991.<br>
+          . Sal&atilde;o de Artes - Mogi Mirim, SP - 1990.<br>
+          . V, IV Sal&atilde;o Po&ccedil;oscaldense de Artes - Po&ccedil;os de 
+          Caldas, MG - 1990, 1989.<br>
+          . XIII, XII, XI Sal&atilde;o de Artes Pl&aacute;sticas - S&atilde;o 
+          Jo&atilde;o da Boa Vista, SP - 1989/88/87.<br>
+          . XVI, VI Sal&atilde;o Limeirense de Arte Contempor&acirc;nea - Limeira, 
+          SP - 1987/78.<br>
+          . XI Sal&atilde;o de Arte Contempor&acirc;nea - Franca, SP - 1987.<br>
+          . &quot;Linguagens em Confronto&quot; - Museu de Arte Contempor&acirc;nea 
+          - Campinas, SP - 1987.<br>
+          . I Sal&atilde;o Regional de Arte Contempor&acirc;nea - Campinas, SP 
+          - 1987.<br>
+          . II, XI Sal&atilde;o Jovem de Artes Pl&aacute;sticas - Conservat&oacute;rio 
+          Carlos Gomes - Campinas, SP -1994/86.<br>
+          . 8&ordm; Sal&atilde;o de Artes Pl&aacute;sticas da Embraer - S&atilde;o 
+          Jos&eacute; dos Campos, SP - 1982.</font></p>
+        <p></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2" color="#FFFFFF">Principais 
+          Exposi&ccedil;&otilde;es Individuais</font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2" color="#FFFFFF">. 
+          &quot;Gravatas &amp; Gravuras&quot; - Caixa Cultural - S&atilde;o Paulo, 
+          SP - 2004.<br>
+          . &quot;Gravatas &amp; Gravuras&quot; - Museu de Arte - Joinville, SC 
+          - 2004.<br>
+          . &quot;Gravatas &amp; Gravuras&quot; - Galeria Cemig - Belo Horizonte, 
+          MG - 2003.<br>
+          . 50 Gravuras - Espa&ccedil;o Cultural da Faculdade de Artes Visuais 
+          - CLC - PUC-Campinas, SP - 2002.<br>
+          . &quot;Pinturas e Gravuras - 30 Anos de Arte Contempor&acirc;nea&quot; 
+          - Galeria D - Centro de Conviv&ecirc;ncia Cultural - Campinas, SP - 
+          1996.<br>
+          . &quot;Da Gravata &agrave; Banana&quot; - Sala do Acervo - Museu da 
+          Gravura - Curitiba, PR - 1996.<br>
+          . &quot;Branco &amp; Preto&quot; - Casa da Cultura da Am&eacute;rica 
+          Latina - Universidade de Bras&iacute;lia - Bras&iacute;lia, DF - 1995.<br>
+          . &quot;Gravuras&quot; - Reitoria da PUCCamp - Campinas, SP - 1994.<br>
+          . &quot;Gravuras&quot; - Alian&ccedil;a Francesa - Campinas, SP - 1993.<br>
+          . &quot;Gravuras&quot; - Universidade Federal de Mato Grosso do Sul 
+          - Campo Grande, MS - 1992.<br>
+          . &quot;Gravuras&quot; - Casa da Xilogravura - Campos do Jord&atilde;o, 
+          SP - 1992.<br>
+          . &quot;Gravuras&quot; - Th&eacute;bis Cury Gabinete de Arte - Campinas, 
+          SP - 1987.<br>
+          . &quot;Elogio &agrave; Gravata&quot; - Galeria Aquarela; Museu Universit&aacute;rio 
+          - PUCCamp - Campinas, SP - 1986.<br>
+          . &quot;S&iacute;ntese&quot; - Museu de Arte Contempor&acirc;nea &quot;Jos&eacute; 
+          Pancetti&quot; - Campinas, SP - 1984.<br>
+          . &quot;Gravuras&quot; - Galeria SENAC/Perdizes - S&atilde;o Paulo, 
+          SP - 1984.<br>
+          . &quot;Desenhos&quot; - Centro de Conviv&ecirc;ncia Cultural - Campinas, 
+          SP - 1979.<br>
+          . &quot;Desenhos&quot; - Galeria SENAC - Campinas, SP - 1979.</font></p>
+        <p> </p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2" color="#FFFFFF">Principais 
+          Exposi&ccedil;&otilde;es no Exterior</font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2" color="#FFFFFF">. 
+          Gallery Lese Caf&eacute; / Frankfurt / Main - Sachsenhausen - Alemanha 
+          - 1995.<br>
+          . Gallery of Frankfurt's artists group &quot;Klosterpresse im Karmeliterkloster&quot;- 
+          Alemanha - 1995.<br>
+          . 21 International Biennial of Grafic Arte - Mednarodni Graficni Likovni 
+          Center - Ljubljana - Slovenia - 1995<br>
+          . Centro de Arte de Seul - Seul - Corea - 1995.<br>
+          . Frankfurt / Main: 1200 years old ! - Mail - Art Projet in Celebretion 
+          of the 1200th Birthday of the City of Frankfurt / Main, Germany, in 
+          the year 1994 - Gallery Sinntrotz, Neu-Isenburg - Frankfurt; Gallery 
+          Caf&eacute; Plazz - Frankfurt / Main - Bockenheim - Alemanha - 1994.<br>
+          . Troisi&egrave;ne Triennale Mondiale D'Estampes Petit Format - Association 
+          Mus&eacute;e d'Art Contemporain - Chamali&egrave;res - France - 1994.<br>
+          . Encuentro Internacional de Grabadores - Galeria Arte Balboa - Panam&aacute;, 
+          Rep&uacute;blica de Panam&aacute; - 1994.<br>
+          . &quot;... with eyes of the animals&quot; - Art Project - Varignano 
+          d'Arco - It&aacute;lia - 1994.<br>
+          . 1&ordf; Bienal de Arte - Integraci&oacute;n Cultural Paname&ntilde;a 
+          - Universidad de Panam&aacute; - Casa del Arte &quot;El Viejo M&oacute;dulo&quot; 
+          Santa Cruz, Pedregal e Panam&aacute; - Rep&uacute;blica de Panam&aacute; 
+          - 1994.<br>
+          . I, II CIPE - Grabado - Secci&oacute;n de Gr&aacute;fica de la Asociaci&oacute;n 
+          de Artistas Pl&aacute;sticos - UNEAC - La Habana, Cuba - 1994/93.<br>
+          . &quot;Arte del Momento&quot; - Casa de Las Am&eacute;ricas; Sala Rub&eacute;n 
+          Mart&iacute;nez Villena - UNEAC; Instituto Cubano de Amistad con Los 
+          Pueblos - La Habana, Cuba - 1994.<br>
+          . 14&ordm;, 13&ordm; Mini Print Internacional de Cadaqu&eacute;s - Tallier 
+          Galeria Fort - Cadaqu&eacute;s, Girona - Espanha - 1994/93.<br>
+          . &quot;Wingfield Arts &amp; Music Festival&quot; - Wingfield - Inglaterra 
+          - 1994/93.<br>
+          . &quot;Certamen Internacional d'Arquitetura de la Vila de Canet de 
+          Mar&quot; - Canet de Mar, Barcelona - Espanha - 1994/93.<br>
+          . Exposici&oacute;n Internacional de Arte - Centro Chino Paname&ntilde;o 
+          - Museo de la Filatelia - Panam&aacute;, Rep&uacute;blica de Panam&aacute;.<br>
+          . The 2nd Kochi International Triennial Exhibition of Prints - Japan 
+          - 1993.<br>
+          . &quot;Grabados &amp; Brasil&quot; - Palacio de Las Convenciones - 
+          La Habana, Cuba - 1993.<br>
+          . The 17th International Independante Exhibition of Prints Kanagawa 
+          - Kanagawa Prefectural Gallery - Japan - 1992.<br>
+          . &quot;Grabadores Latinoamericanos&quot; - Casa de La Cultura - La 
+          Paz, Bol&iacute;via - 1992.<br>
+          . &quot;Exposicion Internacional de Arte&quot; - Espacio de Arte del 
+          Correo Viejo - Montevid&eacute;o, Uruguay - 1992.<br>
+          . XII, XI, X, IX International Biennial of Humour and Satire in the 
+          Arts - House of Humour and Satire - Gabrovo, Bulg&aacute;ria - 1995/93/91.<br>
+          . &quot;Grabados&quot; - Galeria Pl&aacute;stica Nueva - Santiago, Chile 
+          - 1989.<br>
+          . &quot;Grabados&quot; - Galeria DEL'ARTE - Talca, Chile - 1989.<br>
+          . Den 4:e Internationella Grafik - Triennalen - Osterbottens Museum 
+          - Vasa, Finland - 1987.<br>
+          . &quot;Premio La Joven Estampa&quot; - Casa de Las Am&eacute;ricas 
+          - La Habana - Cuba - 1987.<br>
+          . &quot;Premio Grabado Maxilliano Ramos&quot; - Farrol - Espanha - 1987.<br>
+          . &quot;Artistes Contemporains&quot; - Salle des Exposition - Nice - 
+          France - 1987.<br>
+          . The 12th Independantes Exhibition of Prints in Kanagawa Prefectural 
+          Gallery - Japan - 1986.<br>
+          . First Exhibition of Brazilian Contemporary Art - Curtis Hixon Convention 
+          Center - Tampa - Fl&oacute;rida, USA - 1986.<br>
+          . Brazilian Contemporary Prints - Front Gallery - Ottawa, Canad&aacute; 
+          - 1986.<br>
+          . III Concurso Latino-Americano de Arte - Panam&aacute; - 1985.<br>
+          . The 10th International Independants Exhibition of Prints - Kanagawa 
+          Prefectural Gallery - Kanagawa, Japan - 1985.<br>
+          . The Hanga Annual'85 - Tokyo Metropolitan Art Museum - Tokyo, Japan 
+          - 1985.<br>
+          . I Mostra de Arte Contempor&acirc;nea Brasileira - Sal&atilde;o de 
+          Exposi&ccedil;&otilde;es do Espelho de &Aacute;gua em Bel&eacute;m - 
+          Lisboa - Portugal - 1985.<br>
+          . Danubiale 84 - Internationale Festtage der Film und V&iacute;deo - 
+          Krems/Donau - &Aacute;ustria - 1984.<br>
+          . XXIII Premio Internacional de Dibujo Joan Mir&oacute; - Centro de 
+          Estudios de Arte Contempor&aacute;neo - Barcelona - Espa&ntilde;a - 
+          1984.<br>
+          . The 9th Independants Exhibition of Prints in Kanagawa - Kanagawa Prefectural 
+          Gallery - Japan - 1983.<br>
+          . Sala del Ministerio de Cultura - Tudela - Espa&ntilde;a - 1983.<br>
+          . Sala de Cultura de La Caja de Ahorros de Navarra - Sang&uuml;esa - 
+          Espa&ntilde;a - 1983.<br>
+          . Sala de Cultura de La Caja de Ahorros de Navarra - Estella - Espa&ntilde;a 
+          - 1983.<br>
+          . Sala de Cultura de La Caja de Ahorros de Navarra - Burlada - Espa&ntilde;a 
+          - 1983.<br>
+          . XXII - Premio Internacional de Dibujo Joan Mir&oacute; - Centro de 
+          Estudios de Arte Contempor&aacute;neo - Barcelona - Espa&ntilde;a - 
+          1983.<br>
+          . The 8th Independants Exhibition of Prints in Kanagawa - Kanagawa Prefectural 
+          Gallery - Japan - 1982.<br>
+          . XXI Premio Internacional de Dibujo Joan Mir&oacute; - Centro de Estudios 
+          de Arte Contempor&aacute;neo - Barcelona - Espa&ntilde;a - 1982.<br>
+          . The 7th Independants Exhibition of Prints in Kanagawa - Kanagawa Prefectural 
+          Gallery - Japan - 1981.<br>
+          . XIX Premio Internacional de Dibujo Joan Mir&oacute; - Centro de Estudios 
+          de Arte Contempor&aacute;neo - Barcelona - Espa&ntilde;a - 1980.<br>
+          . XVIII Premio Internacional de Dibujo Joan Mir&oacute; - Centro de 
+          Estudios de Arte Contempor&aacute;neo - Barcelona - Espa&ntilde;a - 
+          1979.<br>
+          . &quot;Images/Messages D'Am&eacute;rique Latine&quot; - Galerie et 
+          Cin&eacute;ma &quot;Le Colis&eacute;e&quot; - Centre Cultural Municipal 
+          de Villkeparisis - France - 1978.<br>
+          . XVII Premio Internacional de Dibujo Joan Mir&oacute; - Centro de Estudios 
+          de Arte Contempor&aacute;neo - Barcelona - Espa&ntilde;a - 1978.</font></p>
+        <p></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2" color="#FFFFFF">Principais 
+          Exposi&ccedil;&otilde;es Coletivas no Brasil</font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2" color="#FFFFFF">. 
+          1&ordf; Bienal Nacional da Gravura - SENAC - S&atilde;o Jos&eacute; 
+          dos Campos, SP - 1994.<br>
+          . 1&ordf; Bienal Paulista de Arte Contempor&acirc;nea - Parque Municipal 
+          Monsenhor Bruno Nardini - Valinhos, SP - 1994.<br>
+          . &quot;Artistas &amp; Tend&ecirc;ncias&quot; - Galeria Athos Bulc&atilde;o 
+          - Bras&iacute;lia, DF; Museu de Arte - Joinville, Sc; Museu de Arte 
+          de Santa Catarina - Florian&oacute;polis, SC - 1993.<br>
+          . &quot;Grabados &amp; Gravuras&quot; - Casa da Cultura da Am&eacute;rica 
+          Latina - Universidade de Bras&iacute;lia - Bras&iacute;lia, DF - 1992.<br>
+          . &quot;A Pintura em Campinas - O Contempor&acirc;neo&quot; - Instituto 
+          Cultural ITA&Uacute; - Centro de Inform&aacute;tica e Cultura II - Campinas, 
+          SP - 1992.<br>
+          . &quot;Contexto Latino-Americano&quot; - Bloco do Departamento de Comunica&ccedil;&atilde;o 
+          e Arte - UFMS - Campo Grande, MS - 1992.<br>
+          . &quot;O Papel da N&Atilde;O VIOL&Ecirc;NCIA&quot; - Biblioteca Central 
+          da UnB - Bras&iacute;lia, DF - 1992.<br>
+          . &quot;Grabados &amp; Gravuras&quot; - Reitoria - PUCCamp - Hotel Nacional 
+          - Bras&iacute;lia, DF - 1988.<br>
+          . &quot;Gravuras&quot; - Exposi&ccedil;&atilde;o de Gravura Latino-Americana 
+          - I Festival Latino - Americano de Arte e Cultura - UNB - Galeria do 
+          1&ordm; andar anexo do Teatro Nacional - Bras&iacute;lia, DF - 1987.<br>
+          . Exposi&ccedil;&atilde;o Internacional de Gravura - II Congresso de 
+          Educa&ccedil;&atilde;o - S&atilde;o Jos&eacute; dos Campos, SP - 1987.<br>
+          . &quot;Brasil &amp; Alemanha&quot; - Gravuras - Instituto Goethe - 
+          S&atilde;o Paulo, SP - 1987.<br>
+          . I Bienal Internacional de Gravura - Campinas - PUCCamp - &quot;Hours 
+          Concours&quot; - 1987. Exposi&ccedil;&otilde;es Itinerantes: Museu Reiopardense 
+          - S&atilde;o Jos&eacute; do Rio Pardo, SP; Galeria T&eacute;rreo anexo 
+          do teatro Nacional - Bras&iacute;lia, DF; Centro de Artes - Universidade 
+          Federal do Esp&iacute;rito Santo - Vit&oacute;ria, ES.<br>
+          . XVII Sal&atilde;o Nacional de Arte - Museu de Arte - Pampulha - Belo 
+          Horizonte, MG - 1985.<br>
+          . II Bienal Internacional de Gravura e Artes Gr&aacute;ficas de Cabo 
+          Frio - Espa&ccedil;o ESDI - Escola Superior de Desenho Industrial - 
+          Rio de Janeiro, RJ - 1985.<br>
+          . VI Sal&atilde;o de Artes Pl&aacute;sticas - Presidente Prudente, SP 
+          - 1984.<br>
+          . VI Mostra de Gravura Pan/Americana - Curitiba, PR - 1984.<br>
+          . XI Sal&atilde;o de Arte Jovem - Primeira M&atilde;o - Centro Cultural 
+          Brasil - Estados Unidos - Santos, SP - 1984.<br>
+          . 1&ordm; Sal&atilde;o Nacional de Fotografias - &quot;A Fotografia 
+          Den&uacute;ncia&quot; Sal&atilde;o Permanente de Artes &quot;Bruno Felizberto&quot; 
+          - Po&ccedil;os de Caldas, MG - 1984.<br>
+          . III Sal&atilde;o de Arte Contempor&acirc;nea - Centro Cultural &quot;Prof. 
+          Daud Jorge Sim&atilde;o&quot; - S&atilde;o Jos&eacute; do Rio Preto, 
+          SP - 1984.<br>
+          . 12&ordm; Sal&atilde;o de Arte Contempor&acirc;nea - Centro C&iacute;vico 
+          - Santo Andr&eacute;, SP - 1983.<br>
+          . 16&ordm; Sal&atilde;o de Arte Contempor&acirc;nea de Piracicaba - 
+          Pinacoteca Municipal - Piracicaba, SP - 1983.<br>
+          . 20&ordm; Sal&atilde;o de Artes Pl&aacute;sticas de Embu - Sal&atilde;o 
+          de Exposi&ccedil;&otilde;es - Est&aacute;dio Municipal - Embu, SP - 
+          1983.<br>
+          . 7&ordm; Sal&atilde;o de Artes Pl&aacute;sticas de Franca - Pinacoteca 
+          Municipal - Franca, SP - 1983.<br>
+          . I Bienal Internacional de Gravura e Arte Gr&aacute;fica de Cabo Frio 
+          - Embragel - Hotel Marinas do Canal - Cabo Frio, RJ - 1983.<br>
+          . ESDI Escola Superior de Desenho Industrial - Rio de Janeiro, RJ - 
+          UNESP - Universidade Estadual Paulista - S&atilde;o Jos&eacute; do Rio 
+          Preto, SP - 1983.<br>
+          . VIII Sal&atilde;o de Artes Pl&aacute;sticas - Galeria do Teatro Municipal 
+          - Terezina, PI - 1982.<br>
+          . 15&ordm; Sal&atilde;o de Arte Contempor&acirc;nea - Pinacoteca Municipal 
+          - Piracicaba, SP - 1982.<br>
+          . 8&ordm; Sal&atilde;o de Artes Pl&aacute;sticas da Embraer - &quot;Hours 
+          Concours&quot; - S&atilde;o Jos&eacute; dos Campos, SP - 1982.<br>
+          . II Sal&atilde;o de Artes Visuais - Centro Cultural - Rio Claro, SP 
+          - 1982.<br>
+          . I Sal&atilde;o de Arte Contempor&acirc;nea de S&atilde;o Jos&eacute; 
+          do Rio Preto - Centro Cultural &quot;Prof. David Jorge Sim&atilde;o&quot; 
+          - S&atilde;o Jos&eacute; do Rio Preto, SP - 1982.<br>
+          . I Sal&atilde;o Nacional de Artes Pl&aacute;sticas da Casa Velha - 
+          Novo Hamburgo, RS - 1982.<br>
+          . IV Sal&atilde;o Jovem de Arte - Centro C&iacute;vico - Santo Andr&eacute;, 
+          SP - 1982.<br>
+          . V Exposi&ccedil;&atilde;o de Artes Pl&aacute;sticas da Semana Guiomar 
+          Novaes - Departamento de Educa&ccedil;&atilde;o e Cultura - S&atilde;o 
+          Jo&atilde;o da Boa Vista, SP - 1981.<br>
+          . I Sal&atilde;o de Artes Visuais - Prefeitura Municipal de Rio Claro, 
+          SP - 1981.<br>
+          . XI Encontro de Artes Pl&aacute;sticas - Museu Municipal Jo&atilde;o 
+          Batista Conti - Atibaia, SP - 1981.<br>
+          . V Sal&atilde;o de Arte - Casa da Cultura - Ribeir&atilde;o Preto, 
+          SP - 1981.<br>
+          . VIII Sal&atilde;o Limeirense de Arte Contempor&acirc;nea - Limeira, 
+          SP - 1980.<br>
+          . III Mostra Anual de Gravura - Casa da Gravura - Curitiba, PR - 1980.<br>
+          . XII Sal&atilde;o Nacional de Arte - Pampulha - Belo Horizonte, MG 
+          - 1980.<br>
+          . Panorama de Arte Atual Brasileira - Museu de Arte Moderna - S&atilde;o 
+          Paulo, SP - 1980.<br>
+          . III Sal&atilde;o de Artes Pl&aacute;sticas - Sorocaba, SP - 1980.<br>
+          . XXIII Sal&atilde;o de Arte - S&atilde;o Bernardo do Campo, SP - 1980.<br>
+          . III Sal&atilde;o Jovem de Arte - Centro C&iacute;vico - Santo Andr&eacute;. 
+          SP - 1980.<br>
+          . IV Sal&atilde;o de Arte - S&atilde;o Jo&atilde;o da Boa Vista, SP 
+          - 1980.<br>
+          . IV Sal&atilde;o de Artes Visuais - Niter&oacute;i, RJ - 1980.<br>
+          . I Sal&atilde;o Nacional de Arte - Cubat&atilde;o, SP - 1980.<br>
+          . 5&ordm; Sal&atilde;o Ararense de Artes Pl&aacute;sticas - Araras, 
+          SP - 1980.<br>
+          . XXXII Sal&atilde;o Oficial de Arte - Museu do Estado - Recife, PE 
+          - 1978.<br>
+          . III Sal&atilde;o de Artes Pl&aacute;sticas - Faculdade de Filosofia 
+          - It&uacute;, SP - 1978.<br>
+          . XI Sal&atilde;o de Arte Contempor&acirc;nea - Pinacoteca Municipal 
+          - Piracicaba, SP - 1978. <br>
+          . I Encontro de Arte - Funda&ccedil;&atilde;o Museu da Cidade de Salvador, 
+          BA - 1978.<br>
+          . III Sal&atilde;o Nacional Universit&aacute;rio de Artes Pl&aacute;sticas 
+          - Universidade Federal de Esp&iacute;rito Santo - Vit&oacute;ria, ES 
+          - 1978.<br>
+          . I Sal&atilde;o de Artes Pl&aacute;sticas - Associa&ccedil;&atilde;o 
+          Crist&atilde; de Mo&ccedil;os - Sorocaba, SP - 1978.<br>
+          . II Sal&atilde;o de Arte - S&atilde;o Jos&eacute; do Rio Preto, SP 
+          - 1978.<br>
+          . III Sal&atilde;o de Artes Pl&aacute;sticas do Noroeste - Funda&ccedil;&atilde;o 
+          Educacional - Pen&aacute;polis, SP - 1978.<br>
+          . VI Sal&atilde;o Limeirense de Arte Contempor&acirc;nea - Prefeitura 
+          Municipal - Limeira, SP - 1978.<br>
+          . VII Sal&atilde;o Bukyo - Sociedade Brasileira de Cultura Japonesa 
+          - S&atilde;o Paulo, SP - 1978.<br>
+          . IV Sal&atilde;o de Artes Pl&aacute;sticas - Prefeitura Municipal - 
+          Rio Claro, SP - 1978.<br>
+          . III Sal&atilde;o de Arte Contempor&acirc;nea - Casa da Cultura - Ribeir&atilde;o 
+          Preto, SP - 1978.<br>
+          . I Sal&atilde;o Ararense de Artes Pl&aacute;sticas - Prefeitura Municipal 
+          de Araras - S&atilde;o Paulo, SP - 1978.<br>
+          . IX Sal&atilde;o Nacional de Arte - Museu de Arte Pampulha - Belo Horizonte 
+          - Minas Gerais, MG - 1978.<br>
+          . XX Sal&atilde;o de Arte - S&atilde;o Bernardo do Campo, SP - 1978.<br>
+          . VI Sal&atilde;o Bunkyo - Sociedade Brasileira de Cultura Japonesa 
+          - S&atilde;o Paulo, SP - 1977.<br>
+          . XXXIV Sal&atilde;o Paranaense de Arte - Curitiba, PR - 1977.<br>
+          . IV Sal&atilde;o de Artes Visuais - Universidade Federal do Rio Grande 
+          do Sul - Porto Alegre, RS - 1977.<br>
+          . II Sal&atilde;o de Arte Contempor&acirc;nea - Casa da Cultura - Ribeir&atilde;o 
+          Preto, SP - 1977.<br>
+          . V Sal&atilde;o Limeirense de Arte Contempor&acirc;nea - Prefeitura 
+          Municipal de Limeira, SP - 1977.<br>
+          . IV Sal&atilde;o Limeirense de Arte Contempor&acirc;nea - Limeira, 
+          SP - 1976.<br>
+          . VII Encontro de Artes Pl&aacute;sticas - Museu Municipal Jo&atilde;o 
+          Batista Conti - Atibaia, SP - 1976.<br>
+          . III Sal&atilde;o Limeirense de Arte Contempor&acirc;nea - Limeira, 
+          SP - 1975.<br>
+          . VI Encontro de Artes Pl&aacute;sticas - Museu Municipal Jo&atilde;o 
+          Batista Conti - Atibaia, SP - 1975.<br>
+          . II Sal&atilde;o Limeirense de Arte Contempor&acirc;nea - Limeira, 
+          SP - 1974.<br>
+          . VII Sal&atilde;o de Arte Contempor&acirc;nea - Santo Andr&eacute;, 
+          SP - 1974.<br>
+          . XVII Sal&atilde;o de Arte - Associa&ccedil;&atilde;o Sambernardense 
+          de Belas Artes - S&atilde;o Bernardo do Campo, SP - 1974.<br>
+          . I Sal&atilde;o Limeirense de Arte Contempor&acirc;nea - Limeira, SP 
+          - 1973.<br>
+          . V Sal&atilde;o do Artista Jovem - Museu de Arte Contempor&acirc;nea 
+          de Campinas, SP - 1972.<br>
+          . III Sal&atilde;o Paulista de Arte Contempor&acirc;nea - Museu de Arte 
+          de S&atilde;o Paulo, SP - 1971.<br>
+          . I Bienal de Artes Pl&aacute;sticas - Santos, SP - 1971.<br>
+          . III Sal&atilde;o de Arte Contempor&acirc;nea de Piracicaba - Pinacoteca 
+          Municipal - Piracicaba, SP - 1970.<br>
+          . Concurso Est&iacute;mulo de Artes Pl&aacute;sticas - Secretaria de 
+          Cultura, Esportes e Turismo de S&atilde;o Paulo - Campinas, SP - Bauru, 
+          SP - 1968.<br>
+          . I Sal&atilde;o do Artista Jovem - Museu de Arte Contempor&acirc;nea 
+          de Campinas, SP - 1968.<br>
+          . I Sal&atilde;o de Arte Contempor&acirc;nea de Piracicaba - Pinacoteca 
+          Municipal - Piracicaba, SP - 1968.<br>
+          . I Sal&atilde;o de Arte Moderna de Juventude de S&atilde;o Paulo - 
+          Museu de Arte Contempor&acirc;nea de Campinas, SP - 1966.</font></p>
+        <p></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><br>
+          Premia&ccedil;&otilde;es</font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2" color="#FFFFFF">. 
+          &quot;Pr&ecirc;mio Aquisi&ccedil;&atilde;o&quot; - 1&ordf; Bienal Nacional 
+          da Gravura - SENAC - S&atilde;o Jos&eacute; dos Campos, SP - 1994.<br>
+          . &quot;Men&ccedil;&atilde;o Especial&quot; - 1&ordf; Bienal Paulista 
+          de Arte Contempor&acirc;nea - Parque Municipal Monsenhor Bruno Nardini 
+          - Valinhos, SP - 1994.<br>
+          .&quot;Medalha Carlos Gomes&quot; - outorgado pela C&acirc;mara Municipal 
+          de Campinas - Campinas, SP - 1993.<br>
+          . &quot;Artista Homenageado&quot; - XI Sal&atilde;o de Artes Pl&aacute;sticas 
+          de Rio Claro - Centro Cultural - Rio Claro, SP - 1993.<br>
+          . &quot;Medalha de Ouro&quot; - Artistes Contemporains - Salle des Exposition 
+          - Nice, France - 1987.<br>
+          . &quot;Pequena Medalha de Ouro&quot; - First Exhibition of Brazilian 
+          Contemporary Art - Curtis Hixon Convention Center - Tampa - Fl&oacute;rida, 
+          USA - 1986.<br>
+          . &quot;Pequena Medalha de Prata&quot; - I Mostra de Arte Contempor&acirc;nea 
+          Brasileira - Sal&atilde;o de Exposi&ccedil;&otilde;es do Espelho de 
+          &Aacute;gua em Bel&eacute;m - Lisboa, Portugal - 1985.<br>
+          . &quot;Pequena Medalha de Prata&quot; - II Sal&atilde;o do Figurativo 
+          - S&atilde;o Paulo, SP - 1984.<br>
+          . &quot;Pequena Medalha de Bronze&quot; - IX Sal&atilde;o Nacional de 
+          Artes Pl&aacute;sticas Alberto Santos Dumont - C&iacute;rculo Militar 
+          - S&atilde;o Paulo, SP - 1984.<br>
+          . &quot;Pequena Medalha de Ouro&quot; - III Sal&atilde;o Nacional de 
+          Artes Pl&aacute;sticas Jean Batista Debret - S&atilde;o Paulo, SP - 
+          1984.<br>
+          . &quot;Grande Medalha de Ouro&quot; - II Sal&atilde;o Nacional de Artes 
+          Pl&aacute;sticas do Moderno - S&atilde;o Paulo, SP - 1984.<br>
+          . &quot;Men&ccedil;&atilde;o Especial&quot; - II Sal&atilde;o de Arte 
+          Jovem - Primeira M&atilde;o - Centro Cultural Brasil - Estados Unidos 
+          - Santos, SP - 1984.<br>
+          . &quot;Grande Medalha de Prata&quot; - II Sal]ao Nacional de Artes 
+          Pl&aacute;sticas Genaro de Carvalho - Othon Palace Hotel - Salvador, 
+          BA - 1984.<br>
+          . &quot;Pequena Medalha de Bronze&quot; - 1&ordm; Sal&atilde;o Jausense 
+          de Artes Pl&aacute;sticas - Prefeitura Municipal - Ja&uacute;, SP - 
+          1984.<br>
+          . &quot;Grande Medalha de Ouro&quot; - I Sal&atilde;o Nacional Leon&iacute;stico 
+          de Artes Pl&aacute;sticas - Hotel Jaragu&aacute; - S&atilde;o Paulo, 
+          SP - 1984.<br>
+          . &quot;Grande Medalha de Prata&quot; - I Sal&atilde;o Nacional de Artes 
+          Pl&aacute;sticas - Prefeitura Municipal - Casa Branca, SP - 1984.<br>
+          . &quot;Medalha de Bronze&quot; - III Sal&atilde;o de Arte Contempor&acirc;nea 
+          Centro Cultural &quot;Prof. Daud Jorge Sim&atilde;o&quot; - S&atilde;o 
+          Jos&eacute; do Rio Preto, SP - 1984.<br>
+          . &quot;Medalha de Bronze&quot; - 20&ordm; Sal&atilde;o de Artes Pl&aacute;sticas 
+          de Embu - Sal&atilde;o de Exposi&ccedil;&otilde;es - Estadio Municipal 
+          - Embu, SP - 1983.<br>
+          . &quot;Men&ccedil;&atilde;o Honrosa&quot; - VI Concurso de Fotos Tur&iacute;sticas 
+          da Cidade de Campinas - Centro de Conviv&ecirc;ncia Cultural - Campinas 
+          , SP - 1982.<br>
+          . &quot;Pr&ecirc;mio Aquisi&ccedil;&atilde;o&quot; - XI Encontro de 
+          Artes Pl&aacute;sticas - Museu Municipal Jo&atilde;o Batista Conti - 
+          Atibaia, SP - 1981.<br>
+          . &quot;Pr&ecirc;mio Cidade de Curitiba&quot; - III Mostra Anual de 
+          Gravura - Casa da Gravura - Curitiba, PR - 1980.<br>
+          . &quot;Grande Medalha de Prata&quot; - 5&ordm; Sal&atilde;o Ararense 
+          de Artes Pl&aacute;sticas - Solar Benedita Nogueira - Araras, SP - Desenho 
+          - 1980.<br>
+          .&quot;Pr&ecirc;mio Aquisi&ccedil;&atilde;o&quot; - I Sal&atilde;o de 
+          Arte Contempor&acirc;nea - Prefeitura Municipal de Franca, SP - 1979.<br>
+          . &quot;Honra ao M&eacute;rito&quot; - II Sal&atilde;o de Arte - S&atilde;o 
+          Jos&eacute; do Rio Preto, SP - 1978.<br>
+          . &quot;Medalha de Bronze&quot; - IV Sal&atilde;o de Artes Pl&aacute;sticas 
+          - Prefeitura Municipal de Rio Claro, SP - 2978.<br>
+          . &quot;Pr&ecirc;mio Aquisi&ccedil;&atilde;o&quot; - III Sal&atilde;o 
+          de Arte Contempor&acirc;nea - Casa da Cultura - Ribeir&atilde;o Preto, 
+          SP - 1978.<br>
+          . &quot;Medalha de Prata&quot; - I Sal&atilde;o Ararense de Artes Pl&aacute;sticas 
+          - Prefeitura Municipal de Araras, SP - 1978.<br>
+          . &quot;Men&ccedil;&atilde;o Honrosa&quot; - VI Sal&atilde;o Bunkyo 
+          - Sociedade Brasileira de Cultura Japonesa - S&atilde;o Paulo, SP - 
+          1977.<br>
+          . &quot;Pr&ecirc;mio Aquisi&ccedil;&atilde;o&quot; - V Sal&atilde;o 
+          de Artes Pl&aacute;sticas - Prefeitura Municipal de Jacarezinho, PR 
+          - 1977.<br>
+          . &quot;Pr&ecirc;mio Prefeitura Municipal&quot; - 1&ordm; lugar de desenho 
+          - Casa da Cultura - Ribeir&atilde;o Preto, SP - 1977.<br>
+          . &quot;Men&ccedil;&atilde;o Especial&quot; - I Encontro Cultural - 
+          Prefeitura Municipal - Ribeir&atilde;o Pires, SP - 1976.<br>
+          . &quot;Medalha de Prata&quot; - III Sal&atilde;o Limeirense de Arte 
+          Contempor&acirc;nea - Instituto Cultural Italo Brasileiro - Limeira, 
+          SP - 1975.<br>
+          . &quot;Men&ccedil;&atilde;o Honrosa&quot; - II Sal&atilde;o Limeirense 
+          de Arte Contempor&acirc;nea - Instituto Cultural Italo Brasileiro - 
+          Limeira, SP - 1974.<br>
+          . &quot;Grande Medalha de Bronze&quot; - XVI Sal&atilde;o de Arte - 
+          Associa&ccedil;&atilde;o Sambernardense de Belas Artes - S&atilde;o 
+          Bernardo do Campo, SP - 1973.<br>
+          . &quot;Pr&ecirc;mio Aquisi&ccedil;&atilde;o&quot; - I Sal&atilde;o 
+          Limeirense de Arte Contempor&acirc;nea - C&acirc;mara Municipal de Limeira, 
+          SP - 1973.<br>
+          . &quot;Medalha de Prata&quot; - I Sal&atilde;o de Arte - Santa B&aacute;rbara 
+          D'Oeste, SP - 1972.<br>
+          . &quot;Pr&ecirc;mio Aquisi&ccedil;&atilde;o&quot; - III Sal&atilde;o 
+          de Arte Contempor&acirc;nea - Pinacoteca Municipal - Piracicaba, SP 
+          - 1970.<br>
+          . &quot;Men&ccedil;&atilde;o Especial&quot; - IV Sal&atilde;o Estudantil 
+          de Arte - Col&eacute;gio Progresso - Campinas, SP - 1968.<br>
+          . &quot;Men&ccedil;&atilde;o Honrosa&quot; - Concurso Est&iacute;mulo 
+          de Artes Pl&aacute;sticas - Secretaria de Cultura, Esporte e Turismo 
+          de S&atilde;o Paulo - Campinas, SP - Bauru, SP - 1968.<br>
+          . &quot;Medalha de Ouro&quot; - III Sal&atilde;o Estudantil de Arte 
+          - Col&eacute;gio Progresso - Campinas, SP - 1967.</font></p>
+        <p></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2" color="#FFFFFF">Gravura</font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2" color="#FFFFFF">. 
+          Tiragem Especial 1983 - 37&ordf; Reuni&atilde;o Plen&aacute;ria do Conselho 
+          de Reitores.<br>
+          . Tiragem Especial 1986 - Encontro Regional do Conselho de Reitores.</font></p>
+        <p></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2" color="#FFFFFF">Publica&ccedil;&otilde;es<br>
+          - Autor dos seguintes livros:</font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"> 
+          . SANS, Paulo de Tarso Cheida. Fundamentos para o ensino das Artes Pl&aacute;sticas. 
+          Al&iacute;nea, Campinas, 2005.<br>
+          . SANS, Paulo de Tarso Cheida. A Crian&ccedil;a e o Artista. Papirus, 
+          Campinas, 1994.<br>
+          . SANS, Paulo de Tarso Cheida. Pedagogia do Desenho Infantil - Editora 
+          Al&iacute;nea, Campinas, 1987.</font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><br>
+          - Organizador dos seguintes livros:</font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"> 
+          . SANS, Paulo de Tarso Cheida (org.) Senna - Uma Vis&atilde;o sobre 
+          o Her&oacute;i. Arte Editora Campinas, 1994.<br>
+          . SANS, Paulo de Tarso Cheida (org.) Etapas. Arte Editora Campinas, 
+          1991.<br>
+          . SANS, Paulo de Tarso Cheida e MARTINS, Wilma Gabriel (org.) Constru&ccedil;&atilde;o. 
+          Arte Editora Campinas, 1991.<br>
+          . SANS, Paulo de Tarso Cheida (org.) Olho Latino. Arte Editora Campinas, 
+          1990.<br>
+          . SANS, Paulo de Tarso Cheida (org.) Gravura - Contexto Atual. Arte 
+          Editora Campinas, 1989.<br>
+          . SANS, Paulo de Tarso Cheida (org.) Frestas. Arte Editora Campinas, 
+          1989.<br>
+          . SANS, Paulo de Tarso Cheida (org.) Simbologias Visuais. Departamento 
+          de Artes Pl&aacute;sticas - Instituto de Artes e Comunica&ccedil;&otilde;es 
+          - Pontif&iacute;cia Universidade Cat&oacute;lica de Campinas, 1988.<br>
+          . SANS, Paulo de Tarso Cheida. Mensagens Visuais. Departamento de Artes 
+          Pl&aacute;sticas - Instituto de Artes e Comunica&ccedil;&otilde;es - 
+          Pontif&iacute;cia Universidade Cat&oacute;lica de Campinas - 1987.</font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><br>
+          Obras em Acervos (Principais)</font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2" color="#FFFFFF">. 
+          Instituto Cubano de Amistad con Los Pueblos - La Habana, Cuba.(Gravura).<br>
+          . Funda&ccedil;&atilde;o Cultural Cassiano Ricardo - S&atilde;o Jos&eacute; 
+          dos Campos, SP.(Gravura).<br>
+          . Escuela Nacional de Arte - La Habana, Cuba. (Gravura).<br>
+          . Museu de Arte Contempor&acirc;nea - USP - S&atilde;o Paulo, SP. (Gravura).<br>
+          . House of Humour and Satire - Gabrovo, Bulg&aacute;ria. (Gravuras e 
+          Fotografias).<br>
+          . Casa da Cultura da Am&eacute;rica Latina - Universidade de Bras&iacute;lia, 
+          DF. (Gravuras).<br>
+          . Museu Nacional de Belas Artes - Santiago, Chile. (Gravura).<br>
+          . Centro Popular de Arte y Cultura - La Paz, Bol&iacute;via. (Gravura).<br>
+          . Colecci&oacute;n &quot;Arte de Nuestra Am&eacute;rica - Casa de Las 
+          Americas - La Habana, Cuba.(Gravuras).<br>
+          . Pohjanmaan Museo - Vaasa, Finl&acirc;ndia.(Gravuras).<br>
+          . Consulado Geral do Chile - S&atilde;o Paulo, SP.(Gravura).<br>
+          . Embaixada do Brasil - Ottawa, Ontario - Canad&aacute;. (Gravura).<br>
+          . Cooperativa de Atividades Art&iacute;sticas &Aacute;RVORE - Porto, 
+          Portugal. (Gravura).<br>
+          . Associa&ccedil;&atilde;o Austr&iacute;aca de Filme e V&iacute;deo 
+          - Krems/Donau - &Aacute;ustria. (V&iacute;deo).<br>
+          . Museu de Arte de Bras&iacute;lia - Bras&iacute;lia, DF. (Gravura).<br>
+          . Museu de Arte - Pampulha - Belo Horizonte, MG. (Gravuras).<br>
+          . Museu de Arte Contempor&acirc;nea &quot;Jos&eacute; Pancetti&quot; 
+          - Campinas, SP. (Gravura).<br>
+          . Museu da Gravura - Curitiba, PR. (Gravura)<br>
+          . UNICAMP - Universidade Estadual de Campinas, SP. (Desenho).<br>
+          . Centro de Cultura e Arte - Pontif&iacute;cia Universidade Cat&oacute;lica 
+          de Campinas - Campinas, SP. (Gravura).<br>
+          . Centro de Ci&ecirc;ncias, Letras e Artes - Campinas, SP. (Gravura).<br>
+          . Pinacoteca Municipal - Piracicaba, SP. (Desenho).<br>
+          . Museu Major Levi Sobrinho - Limeira, SP. (Desenho).<br>
+          . Pinacoteca Municipal - Franca, SP. (Gravura).<br>
+          . Casa da Cultura - Ribeir&atilde;o Preto, SP. (Desenho)<br>
+          . Casa da Xilogravura - Campos do Jord&atilde;o, SP. (Gravuras).</font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><b><br>
+          BIBLIOGRAFIA</b></font></p>
+        <p><font color="#FFFFFF"><b><font face="Arial, Helvetica, sans-serif" size="2">CITA&Ccedil;&Otilde;ES 
+          EM LIVROS (Algumas)</font></b></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2" color="#FFFFFF">. 
+          MARTINS, Wilma Gabriel. Gravatas e Engravatados na Obra Pl&aacute;stica 
+          de Paulo Cheida Sans. Campinas, Arte Editora Campinas, 1989.<br>
+          . MARTINS, Narciso. Panorama de Arte Contempor&acirc;nea. S&atilde;o 
+          Paulo, Editora C, 1986.<br>
+          . MATOS, S&iacute;lvia. O Ensino de Artes Pl&aacute;sticas em Campinas. 
+          Projeto pela Unicamp - apoio CNPQ. Campinas, Edi&ccedil;&atilde;o da 
+          autora, 1988.<br>
+          . Annuaire de L'Art Internacional. Paris, Editions Sermadiras S.A., 
+          1986.<br>
+          . Anuario Latinoamericano de Las Artes Pl&aacute;sticas. Buenos Aires, 
+          Correo Editorial, 1986.<br>
+          . Anuario Latinoamericano de Las Artes Pl&aacute;sticas. Buenos Aires,Correo 
+          Editorial, 1985. <br>
+          . Dicion&aacute;rio Brasileiro de Artistas Pl&aacute;sticos. Coordena&ccedil;&atilde;o: 
+          Walmir Ayala. Instituto Nacional do Livro - MEC - Volume 4, 1980.</font></p>
+        <p></p>
+        <p></p>
+        <p align="center">&nbsp; </p>
+        </div>
+    </td>
+    <td><img src="imagens/layout/spacer.gif" width="1" height="483" border="0"></td>
+  </tr>
+</table>
+</body>
+</html>
