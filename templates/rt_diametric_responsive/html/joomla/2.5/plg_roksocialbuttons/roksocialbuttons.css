@@ -1,0 +1,13 @@
+.roksocialbuttons .custom_images span, .roksocialbuttons .custom_images a:hover > span {display: inline-block;width:42px;height:24px;background-color: transparent !important;background-image: url(icons.png) !important;background-repeat: no-repeat;}
+.roksocialbuttons .custom_images a:hover {display: inline-block;background: #fff url(social-overlay.png);}
+.roksocialbuttons .custom_images .addthis_button_google:hover {border-radius: 0 5px 5px 0;}
+.roksocialbuttons .addthis_button_twitter span {background-position: -23px 2px !important;}
+.roksocialbuttons .addthis_button_twitter:hover span {background-position: -158px 2px !important;}
+.roksocialbuttons .addthis_button_facebook span {background-position: 15px 0 !important;}
+.roksocialbuttons .addthis_button_facebook:hover span {background-position: -118px 0 !important;}
+.roksocialbuttons .addthis_button_google span {background-position: -69px 1px !important;}
+.roksocialbuttons .addthis_button_google:hover span {background-position: -199px 1px !important;}
+.roksocialbuttons {background: #E1DBDA url(social-overlay.png);border-radius: 5px;display: inline-block;z-index: 2;position: relative;margin: 0 10px;border: 1px solid #A7A7A7;box-shadow: 0 0 4px rgba(0,0,0,0.2);}
+.roksocialbuttons a {float: left;padding: 4px 0;text-align: center;border-left: 1px solid #999;}
+.roksocialbuttons a:first-child {border: none;border-radius: 5px 0 0 5px;}
+.roksocialbuttons h4 {font-size: 1em;margin: 0;font-weight: bold;padding: 10px 13px 6px;text-transform: uppercase;float: left;text-shadow: 1px 1px 1px #fff;}

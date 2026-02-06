@@ -1,0 +1,35 @@
+/**
+ * @package   Diametric Template - RocketTheme
+ * @version   1.3 January 22, 2013
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2012 RocketTheme, LLC
+ * @license   http://www.rockettheme.com/legal/license.php RocketTheme Proprietary Use License
+ */
+
+/* RokAjaxSearch */
+body.rtl .rokajaxsearch {direction: ltr;text-align: right;}
+body.rtl .roksearch_option {float: right !important;}
+body.rtl .search_options {float: right;}
+body.rtl .search_options label {margin-right: 0 !important;margin-left: 15px !important;}
+body.rtl #rokajaxsearch #roksearch_search_str.loading {background-position: 0 50% !important;}
+body.rtl #roksearch_results {direction: ltr;text-align: right;}
+body.rtl #roksearch_results .viewall {float: right;}
+body.rtl #roksearch_results .estimated_res, body.rtl #roksearch_results .pagination_res {float: right;}
+body.rtl #roksearch_results a#roksearch_link {float: left;padding-right: 0;margin-left: 5px;}
+body.rtl #roksearch_results .container-arrows {float: right;margin-right: 0;margin-left: 5px;}
+body.rtl #roksearch_results span.small {direction: rtl;}
+
+/* RokTwittie */
+body.rtl #roktwittie .info {margin-left: 0;margin-right: 58px;}
+body.rtl #roktwittie .status .header .avatar {float: right;}
+body.rtl #roktwittie .status ul li .title {float: right;text-align: left;}
+body.rtl #roktwittie .status ul li .content {margin-left: 0;margin-right: 60px;}
+body.rtl #roktwittie .user .feed a {float: right;padding-right: 0;padding-left: 20px;}
+body.rtl #roktwittie .roktwittie-avatar {margin-right: 0;margin-left: .5em;float: right;}
+body.rtl #roktwittie div.roktwittie-infos .roktwittie-date {float: left;}
+body.rtl #roktwittie .roktwittie-surround {padding-left: 0;padding-right: 5px;}
+body.rtl #roktwittie .roktwittie-t1 {border: 0 none;}
+body.rtl #roktwittie .roktwittie-t1 {border: 0 none;background-position: -19px 0 !important;margin-right: -6px;width: 12px !important;}
+
+/* RokSocialButtons */
+body.rtl .roksocialbuttons {float: left;margin: 0 20px 0 -15px;}

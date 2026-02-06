@@ -1,0 +1,34 @@
+/* Layout - Sprocket Headlines - Core */
+.sprocket-headlines {position: relative;display: table;border-radius: 6px;margin: -1px;width: 100%;}
+.sprocket-headlines:after {display: table;content: "";*zoom: 1;clear: both;}
+.sprocket-headlines-container {display: table-row;}
+.sprocket-headlines ul {list-style: none;margin: 0;}
+.sprocket-headlines-container ul li a {line-height: 1.6em;font-size:100%;}
+
+/* Layout - Sprocket Headlines - Badge */
+.sprocket-headlines-badge {float: left;}
+.sprocket-headlines-badge span {display: block;padding: 10px;font-size: 1.2em;line-height: 1.6em;font-weight: bold;}
+
+/* Layout - Sprocket Headlines - Items */
+.sprocket-headlines-list {float: left;padding: 10px;overflow: hidden;}
+.sprocket-headlines-item {font-size: 1.2em;line-height: 1.3em;position: absolute;opacity: 0;height: 0;width: 0;display: block;visibility: hidden;}
+.sprocket-headlines-item.active {position: relative;opacity: 1;height: auto;width: auto;float: left;visibility: visible;}
+.animation-slideandfade .sprocket-headlines-item {margin-top: -100px;}
+.animation-slideandfade .sprocket-headlines-item.active {margin-top: 0;}
+.sprocket-headlines-image {float: left;margin-right: 10px;}
+
+/* Layout - Sprocket Headlines - Navigation */
+.sprocket-headlines-navigation {display: table-cell;vertical-align: middle;padding: 10px;width: 60px;}
+.sprocket-headlines-navigation .arrow {position: relative;display: block;width: 20px;height: 20px;opacity: 1;cursor: pointer;float: right;margin-left: 5px;border-radius:4px;}
+.sprocket-headlines-navigation .controls {width: 20px;height: 20px;border-radius:4px;float: right;margin-left: 5px;}
+.sprocket-headlines-navigation .arrow span {display: none;}
+.sprocket-headlines-navigation .prev {background-position: 4px 4px;background-repeat: no-repeat;}
+.sprocket-headlines-navigation .next {background-position: 5px -31px;background-repeat: no-repeat;}
+
+body.rtl .sprocket-headlines-badge {float: right;}
+body.rtl .sprocket-headlines-list {float: right;}
+
+/* Layout - Sprocket Headlines - Transitions */
+.animation-slideandfade .sprocket-headlines-item.active {-webkit-transition: margin 0.3s ease-out, opacity 0.4s ease-in;-moz-transition: margin 0.3s ease-out, opacity 0.4s ease-in;-o-transition: margin 0.3s ease-out, opacity 0.4s ease-in;transition: margin 0.3s ease-out, opacity 0.4s ease-in;}
+.animation-fade .sprocket-headlines-item.active {-webkit-transition: opacity 0.4s ease-in;-moz-transition: opacity 0.4s ease-in;-o-transition: opacity 0.4s ease-in;transition: opacity 0.4s ease-in;}
+.sprocket-headlines-navigation .arrow {-moz-transition: background-color 0.3s linear;-o-transition: background-color 0.3s linear;-webkit-transition: background-color 0.3s linear;transition: background-color 0.3s linear;}

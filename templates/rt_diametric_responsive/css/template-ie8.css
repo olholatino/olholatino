@@ -1,0 +1,73 @@
+/**
+ * @package   Diametric Template - RocketTheme
+ * @version   1.3 January 22, 2013
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2012 RocketTheme, LLC
+ * @license   http://www.rockettheme.com/legal/license.php RocketTheme Proprietary Use License
+ */
+
+/* Structure */
+#rt-bg-image {left: 49% !important;}
+
+/* Menus */
+.menutop #form-login .input .inputbox {width: 100%;}
+#rt-navigation {zoom: 1;}
+.fusion-submenu-wrapper {margin-left: 1px;}
+.fusion-js-subs {margin-top: -1px !important;zoom: 1;}
+
+/* Modules */
+#rt-content-bottom .module-title .title {word-wrap: break-word;}
+.module-content ul.menu li {list-style-type: none !important;}
+.module-content ul.menu .subtext em {padding-left: 0;}
+form#form-login ul {padding: 5px 0 0;}
+
+/* Typography */
+.rokchecks.roksubscribe {display: inline-block;}
+#form-login .remember {zoom: 1;}
+.readon {zoom: 1;position: relative;border: none !important;}
+.readon .button, .button, .btn {zoom: 1;border: none !important;}
+fieldset legend {color: inherit;}
+body .rt-articleinfo {zoom:1;}
+.ext-rokcandy-block h3 span, .ext-rokpad-block h3 span, .ext-rokgzipper-block h3 span, .ext-rokbox-block h3 span {display: block !important;}
+
+/* Joomla */
+.component-content .icon .hasTip img {display: none;}
+.component-content .icon .hasTip a {display: block;width: 16px;height: 16px;}
+.component-content .contact .rt-joomla-table img {width: 16px !important;height: 16px !important;}
+.component-content .rt-article-icons .edit img {filter: alpha(opacity=0); zoom: 1;}
+
+/* RokTwittie */
+ #roktwittie span.vcard {padding-bottom: 1px;}
+
+/* RokGallery */
+.rg-detail-file-info, .rg-detail-slice-info, .rg-detail-file-main {zoom: 1;}
+.rg-detail-info-table {width: 90%;}
+.rg-detail-file-main {width: 70%;}
+
+/* Sprocket Stuff */
+.sprocket-tabs-panels > .sprocket-tabs-panel {display: none;}
+.sprocket-tabs-panels > .sprocket-tabs-panel.active {display: block;}
+.sprocket-headlines-item {display: none !important;}
+.sprocket-headlines-item.active {display: block !important;}
+.sprocket-lists-title {position; relative;zoom: 1;}
+.sprocket-lists-title .indicator {position: absolute !important;right: 4px !important;top: 4px !important;zoom: 1;display: block;}
+
+/* Additional Fixes */
+.topblock-overlay-dark .rokajaxsearch .inputbox, .bottomblock-overlay-dark .rokajaxsearch .inputbox  {border-color: #555555;}
+.topblock-overlay-light .rokajaxsearch .inputbox, .bottomblock-overlay-light .rokajaxsearch .inputbox  {border-color: #555555;}
+
+/* RokAjaxSearch */
+#rokajaxsearch .inputbox {line-height:25px;}
+
+/* RTL */
+body.rtl span.inset-right-title, body.rtl span.inset-left-title {zoom: 1;position: relative;}
+body.rtl .rt-article-content p, body.rtl blockquote, body.rtl blockquote p, body.rtl .dropcap {direction: ltr;text-align: right;}
+body.rtl .fusion-submenu-wrapper li {text-align: right;}
+body.rtl ol li {direction: ltr;text-align: right;}
+body.rtl .title {direction: ltr;text-align: right;}
+body.rtl .module-content p {direction: ltr;text-align: right;}
+body.rtl #form-login .inputbox {text-align: right;}
+body.rtl #form-login .input p {direction: ltr;}
+body.rtl .rt-demo-typo-block {direction: ltr;text-align: right;}
+body.rtl .rt-demo-grid-4 p {direction: ltr;text-align: right;}
+body.rtl p.nomarginbottom {direction: ltr;text-align: right;}

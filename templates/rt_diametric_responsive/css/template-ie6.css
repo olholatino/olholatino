@@ -1,0 +1,13 @@
+/**
+ * @package   Diametric Template - RocketTheme
+ * @version   1.3 January 22, 2013
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2012 RocketTheme, LLC
+ * @license   http://www.rockettheme.com/legal/license.php RocketTheme Proprietary Use License
+ */
+
+.component-block, .rt-container, #rt-top-surround, #rt-top-surround2, #rt-header, #rt-copyright, .logo-module, #rt-navigation, #rt-navigation2, #rt-navigation3, #developed-by, .menu-top {zoom: 1;}
+#rt-header {height: 100px;}
+#rt-navigation, #rt-navigation2, #rt-navigation3 {position: relative;background-image: none;}
+#rt-navigation, #rt-navigation3, #rt-navigation3 .rt-container, .logo-block {z-index: 2;position: static !important;}
+#rt-navigation {background-color: #333;height: 10px;position: relative;}
