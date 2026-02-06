@@ -1,4 +1,4 @@
-/*
+﻿/*
 		MIT-style license
  @author		Harald Kirschner <mail [at] digitarald.de>
  @author		Rouven Weßling <me [at] rouvenwessling.de>

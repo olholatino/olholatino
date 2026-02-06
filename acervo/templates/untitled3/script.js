@@ -703,7 +703,7 @@ var ThemeLightbox = (function ($) {
 
         function showError(enable) {
             if (enable) {
-                $(".art-lightbox-wrapper").append($('<div class="lightbox-error">NÃ£o Ã© possÃ­vel carregar o conteÃºdo pedido.<br/>Por favor tente mais tarde.</div>')
+                $(".art-lightbox-wrapper").append($('<div class="lightbox-error">Não é possível carregar o conteúdo pedido.<br/>Por favor tente mais tarde.</div>')
                         .css({ "top": $(window).height() / 2 - 60, "left": $(window).width() / 2 - 170 }));
             } else {
                 $(".art-lightbox-wrapper .lightbox-error").remove();
@@ -1230,4 +1230,5 @@ var processHeaderMultipleBg = (function ($) {
     });
 
 }(jQuery));
+
 

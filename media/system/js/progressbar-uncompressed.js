@@ -1,4 +1,4 @@
-/*
+﻿/*
 name: Fx.ProgressBar
 
 description: Creates a progressbar with WAI-ARIA and optional HTML5 support.
@@ -97,3 +97,4 @@ Fx.ProgressBar = new Class({
 		return this;
 	}
 });
+
