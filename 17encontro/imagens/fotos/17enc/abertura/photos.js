@@ -1,4 +1,4 @@
-WPGgallery = new Object();
+﻿WPGgallery = new Object();
 WPGgallery.name = "Galeria%20de%20Fotos%20na%20Web%20Adobe";
 WPGgallery.photographer = "";
 WPGgallery.contact = "";
@@ -197,4 +197,5 @@ gPhotos[22].ImageHeight = 254;
 gPhotos[22].ThumbWidth = 75;
 gPhotos[22].ThumbHeight = 54;
 gPhotos[22].meta = new Object();
+
 

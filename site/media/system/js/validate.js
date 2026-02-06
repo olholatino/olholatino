@@ -1,4 +1,4 @@
-/**
+﻿/**
 * @version		$Id: validate.js 7401 2007-05-14 04:12:55Z eddieajau $
 * @package		Joomla
 * @copyright	Copyright (C) 2005 - 2010 Open Source Matters. All rights reserved.

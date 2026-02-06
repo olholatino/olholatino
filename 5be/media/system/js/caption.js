@@ -1,4 +1,4 @@
-/**
+﻿/**
 * @version		$Id: caption.js 5263 2006-10-02 01:25:24Z webImagery $
 * @copyright	Copyright (C) 2005 - 2010 Open Source Matters. All rights reserved.
 * @license		GNU/GPL, see LICENSE.php
@@ -71,3 +71,4 @@ window.addEvent('load', function() {
 	var caption = new JCaption('img.caption')
 	document.caption = caption
 });
+

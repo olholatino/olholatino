@@ -1,4 +1,4 @@
-/* begin Page */
+﻿/* begin Page */
 
 /* Generated with Artisteer version 2.3.0.21098, file checksum is E9529888. */
 
@@ -7,7 +7,7 @@ body
 	margin: 0 auto;
 	padding: 0;
 	background-color: #BFBFBF;
-	background-image: url('http://localhost/site/templates/teste9_ol2011/images/Page-BgTexture.jpg');
+	background-image: url('/olholatino/site/templates/teste9_ol2011/images/Page-BgTexture.jpg');
 	background-repeat: repeat;
 	background-attachment: scroll;
 	background-position: top left;
@@ -26,7 +26,7 @@ body
 #art-page-background-gradient
 {
 	position: absolute;
-	background-image: url('http://localhost/site/templates/teste9_ol2011/images/Page-BgGradient.jpg');
+	background-image: url('/olholatino/site/templates/teste9_ol2011/images/Page-BgGradient.jpg');
 	background-repeat: repeat-x;
 	top:0;
 	width:100%;
@@ -93,7 +93,7 @@ table.position
 {
 	width: 58px;
 	height: 58px;
-	background-image: url('http://localhost/site/templates/teste9_ol2011/images/Sheet-s.png');
+	background-image: url('/olholatino/site/templates/teste9_ol2011/images/Sheet-s.png');
 }
 
 .art-Sheet-tl
@@ -129,7 +129,7 @@ table.position
 	left: 29px;
 	right: 29px;
 	height: 58px;
-	background-image: url('http://localhost/site/templates/teste9_ol2011/images/Sheet-h.png');
+	background-image: url('/olholatino/site/templates/teste9_ol2011/images/Sheet-h.png');
 }
 
 .art-Sheet-tc
@@ -149,7 +149,7 @@ table.position
 	top: 29px;
 	bottom: 29px;
 	width: 58px;
-	background-image: url('http://localhost/site/templates/teste9_ol2011/images/Sheet-v.png');
+	background-image: url('/olholatino/site/templates/teste9_ol2011/images/Sheet-v.png');
 }
 
 .art-Sheet-cr
@@ -206,7 +206,7 @@ div.art-Header-png
 	left: 0;
 	width: 868px;
 	height: 150px;
-	background-image: url('http://localhost/site/templates/teste9_ol2011/images/Header.png');
+	background-image: url('/olholatino/site/templates/teste9_ol2011/images/Header.png');
 	background-repeat: no-repeat;
 	background-position: left top;
 }
@@ -219,7 +219,7 @@ div.art-Header-jpeg
 	left: 0;
 	width: 868px;
 	height: 150px;
-	background-image: url('http://localhost/site/templates/teste9_ol2011/images/Header.jpg');
+	background-image: url('/olholatino/site/templates/teste9_ol2011/images/Header.jpg');
 	background-repeat: no-repeat;
 	background-position: center center;
 }
@@ -319,7 +319,7 @@ font-size: 14px;
 {
     height: 30px;
 	background-position:left top;
-	background-image: url('http://localhost/site/templates/teste9_ol2011/images/BlockHeaderIcon.png');
+	background-image: url('/olholatino/site/templates/teste9_ol2011/images/BlockHeaderIcon.png');
 	padding:0 0 0 13px;
 	background-repeat: no-repeat;
 	min-height: 13px;
@@ -392,7 +392,7 @@ font-size: 14px;
 .art-BlockContent-body ul li
 {
 	padding:0px 0 0px 17px;
-	background-image: url('http://localhost/site/templates/teste9_ol2011/images/BlockContentBullets.png');
+	background-image: url('/olholatino/site/templates/teste9_ol2011/images/BlockContentBullets.png');
 	background-repeat:no-repeat;
 	margin:0.5em 0 0.5em 0;
 	line-height:1.2em;
@@ -427,7 +427,7 @@ font-size: 14px;
 {
 	width: 14px;
 	height: 14px;
-	background-image: url('http://localhost/site/templates/teste9_ol2011/images/Post-s.png');
+	background-image: url('/olholatino/site/templates/teste9_ol2011/images/Post-s.png');
 }
 
 .art-Post-tl
@@ -463,7 +463,7 @@ font-size: 14px;
 	left: 7px;
 	right: 7px;
 	height: 14px;
-	background-image: url('http://localhost/site/templates/teste9_ol2011/images/Post-h.png');
+	background-image: url('/olholatino/site/templates/teste9_ol2011/images/Post-h.png');
 }
 
 .art-Post-tc
@@ -483,7 +483,7 @@ font-size: 14px;
 	top: 7px;
 	bottom: 7px;
 	width: 14px;
-	background-image: url('http://localhost/site/templates/teste9_ol2011/images/Post-v.png');
+	background-image: url('/olholatino/site/templates/teste9_ol2011/images/Post-v.png');
 }
 
 .art-Post-cr
@@ -856,7 +856,7 @@ ol
 
 .art-Post ul li, .art-Post ol ul li 
 {
-	background-image: url('http://localhost/site/templates/teste9_ol2011/images/PostBullets.png');
+	background-image: url('/olholatino/site/templates/teste9_ol2011/images/PostBullets.png');
 	background-repeat:no-repeat;
 	padding-left:19px;
 }
@@ -881,7 +881,7 @@ blockquote,
 		margin:10px 10px 10px 50px;
 	padding:5px 5px 5px 28px;
 	background-color:#A1A1A1;
-	background-image:url('http://localhost/site/templates/teste9_ol2011/images/PostQuote.png');
+	background-image:url('/olholatino/site/templates/teste9_ol2011/images/PostQuote.png');
 	background-position:left top;
 	background-repeat:no-repeat;
 }
@@ -961,7 +961,7 @@ font-size: 14px;
 	position:absolute;
 	z-index:-1;
 	height: 114px;
-	background-image: url('http://localhost/site/templates/teste9_ol2011/images/Button.png');
+	background-image: url('/olholatino/site/templates/teste9_ol2011/images/Button.png');
 }
 
 .art-button-wrapper .l
@@ -1014,7 +1014,7 @@ font-size: 14px;
 	position:absolute;
 	z-index:-1;
 	background-repeat:no-repeat;
-	background-image: url('http://localhost/site/templates/teste9_ol2011/images/Footer.png');
+	background-image: url('/olholatino/site/templates/teste9_ol2011/images/Footer.png');
 	width: 868px;
 	height: 150px;
 	bottom:0;
@@ -1646,7 +1646,7 @@ td.key
 	margin-top: -15px;
 	padding-top: 15px;
 	padding-bottom: 5px;
-	background: url(http://localhost/site/templates/system/images/selector-arrow.png) no-repeat;
+	background: url(/olholatino/site/templates/system/images/selector-arrow.png) no-repeat;
 }
 
 .tool-text
@@ -1663,7 +1663,7 @@ td.key
 
 #system-message dd.message ul
 {
-	background: #c3d2e5 url(http://localhost/site/templates/system/images/notice-info.png) 4px center no-repeat;
+	background: #c3d2e5 url(/olholatino/site/templates/system/images/notice-info.png) 4px center no-repeat;
 	border-top: 3px solid #de7a7b;
 	border-bottom: 3px solid #de7a7b;
 	margin:0px;
@@ -1675,7 +1675,7 @@ td.key
 #system-message dd.error ul
 {
 	color: #c00;
-	background: #e6c0c0 url(http://localhost/site/templates/system/images/notice-alert.png) 4px center no-repeat;
+	background: #e6c0c0 url(/olholatino/site/templates/system/images/notice-alert.png) 4px center no-repeat;
 	border-top: 3px solid #DE7A7B;
 	border-bottom: 3px solid #DE7A7B;
 	margin: 0px;
@@ -1687,7 +1687,7 @@ td.key
 #system-message dd.notice ul
 {
 	color: #c00;
-	background: #efe7b8 url(http://localhost/site/templates/system/images/notice-note.png) 4px center no-repeat;
+	background: #efe7b8 url(/olholatino/site/templates/system/images/notice-note.png) 4px center no-repeat;
 	border-top: 3px solid #f0dc7e;
 	border-bottom: 3px solid #f0dc7e;
 	margin: 0px;
@@ -1814,3 +1814,4 @@ font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
 {
 	background-image: none;
 }
+

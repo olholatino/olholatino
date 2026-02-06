@@ -1,4 +1,4 @@
-/*
+﻿/*
 	Videobox v1 - jQuery lightbox clone for displaying iframe videos
 	Based on Slimbox 2.04 
 		(c) 2007-2010 Christophe Beyls <http://www.digitalia.be>

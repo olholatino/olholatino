@@ -1,4 +1,4 @@
-	/* frontend */
+﻿	/* frontend */
 
 /*  Acajoom module CSS*/
 .postext {
@@ -78,7 +78,7 @@ table.acajoomtable td.key.vtop {
 
 /*  Admin control Panel*/
 #acajoom table.adminheading th {
-	background: url(http://localhost/site/components/com_acajoom/images/acajoom.jpg) no-repeat left;
+	background: url(/olholatino/site/components/com_acajoom/images/acajoom.jpg) no-repeat left;
 	padding: 0px 0px 0px 65px;
 }
 
@@ -116,7 +116,7 @@ table.panelheading th {
 	text-align: left;
 	height: 25px;
 	color: #c24733;
-	background: url(http://localhost/site/administrator/images/generic.png) no-repeat left;
+	background: url(/olholatino/site/administrator/images/generic.png) no-repeat left;
 	background-repeat: repeat;
 }
 
@@ -133,7 +133,7 @@ table.cpanel td {
 }
 
 #acajoom table.panelheading th.userpanel {
-	background: url(http://localhost/site/administrator/images/userpanel.png) no-repeat left;
+	background: url(/olholatino/site/administrator/images/userpanel.png) no-repeat left;
 	height: 58px;
 	padding: 0px 0px 0px 65px;
 }
@@ -176,5 +176,6 @@ table.acajoom_stats td {
  border-color:#CCCCCC;
 border-style: solid;
 }
+
 
 

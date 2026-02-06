@@ -1,4 +1,4 @@
-/*
+﻿/*
 		GNU General Public License version 2 or later; see LICENSE.txt
 */
 if("undefined"===typeof Joomla)var Joomla={};Joomla.editors={};Joomla.editors.instances={};Joomla.submitform=function(a,b){if("undefined"===typeof b&&(b=document.getElementById("adminForm"),!b))b=document.adminForm;if("undefined"!==typeof a&&''!==a)b.task.value=a;if("function"==typeof b.onsubmit)b.onsubmit();"function"==typeof b.fireEvent&&b.fireEvent("submit");b.submit()};Joomla.submitbutton=function(a){Joomla.submitform(a)};
@@ -13,3 +13,4 @@ function checkAll(a,b){b||(b="cb");if(a.form){for(var c=0,d=0,f=a.form.elements.
 function listItemTask(a,b){var c=document.adminForm,d=c[a];if(d){for(var f=0;;f++){var e=c["cb"+f];if(!e)break;e.checked=!1}d.checked=!0;c.boxchecked.value=1;submitbutton(b)}return!1}function isChecked(a){!0==a?document.adminForm.boxchecked.value++:document.adminForm.boxchecked.value--}function submitbutton(a){submitform(a)}
 function submitform(a){if(a)document.adminForm.task.value=a;if("function"==typeof document.adminForm.onsubmit)document.adminForm.onsubmit();"function"==typeof document.adminForm.fireEvent&&document.adminForm.fireEvent("submit");document.adminForm.submit()}function popupWindow(a,b,c,d,f){winprops="height="+d+",width="+c+",top="+(screen.height-d)/2+",left="+(screen.width-c)/2+",scrollbars="+f+",resizable";win=window.open(a,b,winprops);4<=parseInt(navigator.appVersion)&&win.window.focus()}
 function tableOrdering(a,b,c){var d=document.adminForm;d.filter_order.value=a;d.filter_order_Dir.value=b;submitform(c)}function saveorder(a,b){checkAll_button(a,b)}function checkAll_button(a,b){b||(b="saveorder");for(var c=0;c<=a;c++){var d=document.adminForm["cb"+c];if(d){if(!1==d.checked)d.checked=!0}else{alert("You cannot change the order of items, as an item in the list is `Checked Out`");return}}submitform(b)};
+

@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Standard Template
  * @version		$Id: style.css 484 2010-01-22 03:53:17Z happynoodleboy $
  * @package		JCE MediaBox
@@ -17,18 +17,18 @@
 	background-color: #ffffff;
 }
 #jcemediabox-popup-loader {
-	background: url(http://localhost/5be/plugins/system/jcemediabox/themes/standard/img/loader.gif) no-repeat center center;
+	background: url(/olholatino/5be/plugins/system/jcemediabox/themes/standard/img/loader.gif) no-repeat center center;
 }
 #jcemediabox-popup-content {
 	padding: 0 10px;
 }
 .jcemediabox-popup-corner-tl {
-	background: url(http://localhost/5be/plugins/system/jcemediabox/themes/standard/img/corner-tl.png) no-repeat left top;
+	background: url(/olholatino/5be/plugins/system/jcemediabox/themes/standard/img/corner-tl.png) no-repeat left top;
 	clear: both;
 	height: 10px;
 }
 .jcemediabox-popup-corner-tr {
-	background: url(http://localhost/5be/plugins/system/jcemediabox/themes/standard/img/corner-tr.png) no-repeat right top;
+	background: url(/olholatino/5be/plugins/system/jcemediabox/themes/standard/img/corner-tr.png) no-repeat right top;
 	height: 10px;
 }
 .jcemediabox-popup-corner-tc {
@@ -38,12 +38,12 @@
 	width: auto;
 }
 .jcemediabox-popup-corner-bl {
-	background: url(http://localhost/5be/plugins/system/jcemediabox/themes/standard/img/corner-bl.png) no-repeat left bottom;
+	background: url(/olholatino/5be/plugins/system/jcemediabox/themes/standard/img/corner-bl.png) no-repeat left bottom;
 	clear: both;
 	height: 10px;
 }
 .jcemediabox-popup-corner-br {
-	background: url(http://localhost/5be/plugins/system/jcemediabox/themes/standard/img/corner-br.png) no-repeat right bottom;
+	background: url(/olholatino/5be/plugins/system/jcemediabox/themes/standard/img/corner-br.png) no-repeat right bottom;
 	height: 10px;
 }
 .jcemediabox-popup-corner-bc {
@@ -59,7 +59,7 @@
 #jcemediabox-popup-closelink {
 	width: 20px;
 	height: 20px;
-	background: #cccccc url(http://localhost/5be/plugins/system/jcemediabox/themes/standard/img/close.png) no-repeat;
+	background: #cccccc url(/olholatino/5be/plugins/system/jcemediabox/themes/standard/img/close.png) no-repeat;
 	bottom: 0;
 	top: 10px;
 	right: 10px;
@@ -84,11 +84,11 @@
 	background-color: #333333;
 }
 #jcemediabox-popup-prev {
-	background-image: url(http://localhost/5be/plugins/system/jcemediabox/themes/standard/img/prev.png);
+	background-image: url(/olholatino/5be/plugins/system/jcemediabox/themes/standard/img/prev.png);
 	left: 10px;
 }
 #jcemediabox-popup-next {
-	background-image: url(http://localhost/5be/plugins/system/jcemediabox/themes/standard/img/next.png);
+	background-image: url(/olholatino/5be/plugins/system/jcemediabox/themes/standard/img/next.png);
 	right: 10px;
 }
 span#jcemediabox-popup-numbers {
@@ -136,11 +136,11 @@ div.jcemediabox-tooltip h4 {
 	color: #000000;
 }
 div.jcemediabox-tooltip .jcemediabox-tooltip-top-left {
-	background: url(http://localhost/5be/plugins/system/jcemediabox/themes/standard/img/tip-tl.png) no-repeat top left;
+	background: url(/olholatino/5be/plugins/system/jcemediabox/themes/standard/img/tip-tl.png) no-repeat top left;
 	clear: both;
 }
 div.jcemediabox-tooltip .jcemediabox-tooltip-top-right {
-	background: url(http://localhost/5be/plugins/system/jcemediabox/themes/standard/img/tip-tr.png) no-repeat top right;
+	background: url(/olholatino/5be/plugins/system/jcemediabox/themes/standard/img/tip-tr.png) no-repeat top right;
 }
 div.jcemediabox-tooltip .jcemediabox-tooltip-top-center {
 	background-color: #ffffff;
@@ -163,7 +163,7 @@ div.jcemediabox-tooltip .jcemediabox-tooltip-middle-center {
 	background-color: #ffffff;
 }
 div.jcemediabox-tooltip .jcemediabox-tooltip-bottom-left {
-	background: transparent url(http://localhost/5be/plugins/system/jcemediabox/themes/standard/img/tip-bl.png) no-repeat bottom left;
+	background: transparent url(/olholatino/5be/plugins/system/jcemediabox/themes/standard/img/tip-bl.png) no-repeat bottom left;
 }
 div.jcemediabox-tooltip .jcemediabox-tooltip-bottom-center {
 	background-color: #ffffff;
@@ -173,5 +173,5 @@ div.jcemediabox-tooltip .jcemediabox-tooltip-bottom-center {
 	border-bottom: 1px solid #000000;
 }
 div.jcemediabox-tooltip .jcemediabox-tooltip-bottom-right {
-	background: transparent url(http://localhost/5be/plugins/system/jcemediabox/themes/standard/img/tip-br.png) no-repeat bottom right;
+	background: transparent url(/olholatino/5be/plugins/system/jcemediabox/themes/standard/img/tip-br.png) no-repeat bottom right;
 }

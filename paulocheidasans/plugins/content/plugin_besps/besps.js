@@ -1,4 +1,4 @@
-/*
+﻿/*
 // "bretteleben.de Simple Picture Slideshow" Plugin for Joomla 1.5 - Version 1.5.5
 // License: GNU General Public License version 2 or later; see LICENSE.txt
 // Author: Andreas Berger - andreas_berger@bretteleben.de

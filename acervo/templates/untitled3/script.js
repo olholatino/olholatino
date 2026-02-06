@@ -1,4 +1,4 @@
-/* Created by Artisteer v4.1.0.59861 */
+﻿/* Created by Artisteer v4.1.0.59861 */
 /*jshint forin:true, noarg:true, noempty:true, eqeqeq:true, bitwise:true, strict:true, undef:true, curly:false, browser:true, jquery:false */
 /*global jQuery BackgroundHelper */
 
@@ -703,7 +703,7 @@ var ThemeLightbox = (function ($) {
 
         function showError(enable) {
             if (enable) {
-                $(".art-lightbox-wrapper").append($('<div class="lightbox-error">Não é possível carregar o conteúdo pedido.<br/>Por favor tente mais tarde.</div>')
+                $(".art-lightbox-wrapper").append($('<div class="lightbox-error">NÃ£o Ã© possÃ­vel carregar o conteÃºdo pedido.<br/>Por favor tente mais tarde.</div>')
                         .css({ "top": $(window).height() / 2 - 60, "left": $(window).width() / 2 - 170 }));
             } else {
                 $(".art-lightbox-wrapper .lightbox-error").remove();
@@ -1230,3 +1230,4 @@ var processHeaderMultipleBg = (function ($) {
     });
 
 }(jQuery));
+
