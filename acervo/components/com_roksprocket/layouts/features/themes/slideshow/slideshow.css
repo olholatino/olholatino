@@ -1,4 +1,4 @@
-﻿/**
+/**
  * @author    RocketTheme http://www.rockettheme.com
  * @copyright Copyright (C) 2007 - 2013 RocketTheme, LLC
  * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
@@ -38,4 +38,3 @@
 
 /* Features - Layout Slideshow - Transitions */
 .layout-slideshow .sprocket-features-pagination li, .layout-slideshow .sprocket-features-arrows .arrow {-webkit-transition: opacity 0.2s ease-in;-moz-transition: opacity 0.2s ease-in;-o-transition: opacity 0.2s ease-in;transition: opacity 0.2s ease-in;}
-

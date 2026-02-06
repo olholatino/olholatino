@@ -1,4 +1,4 @@
-﻿/* OpenID icon style */
+/* OpenID icon style */
 input.system-openid, input.com-system-openid {
    background: url(http://openid.net/images/login-bg.gif) no-repeat;
    background-color: #fff;
@@ -36,4 +36,3 @@ border-bottom: 4px solid #c4d3df;
 /* Debug */
 #system-debug     { color: #ccc; background-color: #fff; padding: 10px; margin: 10px; }
 #system-debug div { font-size: 11px;}
-

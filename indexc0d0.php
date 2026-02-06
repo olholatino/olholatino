@@ -5,7 +5,7 @@
 		<title>Portal Olho Latino</title>
 		<description>O Portal Olho Latino é destinado à arte contemporânea. Dentro do Portal você pode saber mais sobre o Museu Olho Latino, a Revista Digital Olho Latino, a Bienal do Esquisito, a Bienal Nacional de Gravura Olho Latino, dentre outros grandes eventos realizados pelo Olho Latino.</description>
 		<link>http://localhost/index.php/component/content/?view=featured</link>
-		<lastBuildDate>Thu, 05 Feb 2026 20:29:09 -0200</lastBuildDate>
+		<lastBuildDate>Thu, 05 Feb 2026 23:22:55 -0200</lastBuildDate>
 		<generator>Joomla! - Open Source Content Management</generator>
 		<atom:link rel="self" type="application/rss+xml" href="http://localhost/index.php?format=feed&amp;type=rss"/>
 		<language>pt-br</language>

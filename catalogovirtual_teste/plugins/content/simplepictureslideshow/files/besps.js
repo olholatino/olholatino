@@ -1,4 +1,4 @@
-﻿/*
+/*
 // "Simple Picture Slideshow" Plugin for Joomla 2.5 - Version 1.5.7
 // License: GNU General Public License version 2 or later; see LICENSE.txt
 // Author: Andreas Berger - andreas_berger@bretteleben.de

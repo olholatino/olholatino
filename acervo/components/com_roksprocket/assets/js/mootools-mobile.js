@@ -1,4 +1,4 @@
-﻿/*
+/*
  * ---
  * name: PowerTools
  * description: Provides mobile implementation into MooTools

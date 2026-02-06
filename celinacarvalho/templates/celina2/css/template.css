@@ -1,4 +1,4 @@
-﻿/* begin Page */
+/* begin Page */
 
 /* Generated with Artisteer version 2.3.0.21098, file checksum is 6F9E6671. */
 
@@ -7,7 +7,7 @@ body
 	margin: 0 auto;
 	padding: 0;
 	background-color: #BFBABE;
-	background-image: url('/olholatino/celinacarvalho/templates/celina2/images/Page-BgTexture.jpg');
+	background-image: url('http://localhost/celinacarvalho/templates/celina2/images/Page-BgTexture.jpg');
 	background-repeat: repeat;
 	background-attachment: scroll;
 	background-position: top left;
@@ -83,7 +83,7 @@ table.position
 {
 	width: 36px;
 	height: 36px;
-	background-image: url('/olholatino/celinacarvalho/templates/celina2/images/Sheet-s.png');
+	background-image: url('http://localhost/celinacarvalho/templates/celina2/images/Sheet-s.png');
 }
 
 .art-Sheet-tl
@@ -119,7 +119,7 @@ table.position
 	left: 18px;
 	right: 18px;
 	height: 36px;
-	background-image: url('/olholatino/celinacarvalho/templates/celina2/images/Sheet-h.png');
+	background-image: url('http://localhost/celinacarvalho/templates/celina2/images/Sheet-h.png');
 }
 
 .art-Sheet-tc
@@ -139,7 +139,7 @@ table.position
 	top: 18px;
 	bottom: 18px;
 	width: 36px;
-	background-image: url('/olholatino/celinacarvalho/templates/celina2/images/Sheet-v.png');
+	background-image: url('http://localhost/celinacarvalho/templates/celina2/images/Sheet-v.png');
 }
 
 .art-Sheet-cr
@@ -162,7 +162,7 @@ table.position
 	left: 18px;
 	right: 18px;
 	bottom: 18px;
-	background-image: url('/olholatino/celinacarvalho/templates/celina2/images/Sheet-c.png');
+	background-image: url('http://localhost/celinacarvalho/templates/celina2/images/Sheet-c.png');
 }
 
 
@@ -196,7 +196,7 @@ div.art-Header-png
 	left: 0;
 	width: 861px;
 	height: 295px;
-	background-image: url('/olholatino/celinacarvalho/templates/celina2/images/Header.png');
+	background-image: url('http://localhost/celinacarvalho/templates/celina2/images/Header.png');
 	background-repeat: no-repeat;
 	background-position: left top;
 }
@@ -209,7 +209,7 @@ div.art-Header-jpeg
 	left: 0;
 	width: 861px;
 	height: 295px;
-	background-image: url('/olholatino/celinacarvalho/templates/celina2/images/Header.jpg');
+	background-image: url('http://localhost/celinacarvalho/templates/celina2/images/Header.jpg');
 	background-repeat: no-repeat;
 	background-position: center center;
 }
@@ -326,7 +326,7 @@ font-weight: normal;
 
 .art-menu ul
 {
-	background-image: url(/olholatino/celinacarvalho/templates/celina2/images/spacer.gif);
+	background-image: url(http://localhost/celinacarvalho/templates/celina2/images/spacer.gif);
 	padding: 10px 30px 30px 30px;
 	margin: -10px 0 0 -30px;
 }
@@ -384,7 +384,7 @@ font-weight: normal;
 	top:0;
 	z-index:-1;
 	height: 75px;
-	background-image: url('/olholatino/celinacarvalho/templates/celina2/images/MenuItem.png');
+	background-image: url('http://localhost/celinacarvalho/templates/celina2/images/MenuItem.png');
 }
 
 .art-menu a .l
@@ -462,7 +462,7 @@ font-weight: normal;
 	display: block;
 	width: 1px;
 	height: 25px;
-	background-image: url('/olholatino/celinacarvalho/templates/celina2/images/MenuSeparator.png');
+	background-image: url('http://localhost/celinacarvalho/templates/celina2/images/MenuSeparator.png');
 }
 
 /* end MenuSeparator */
@@ -480,7 +480,7 @@ font-weight: normal;
 	margin-right: auto;
 
 
-	background-image: url('/olholatino/celinacarvalho/templates/celina2/images/subitem-bg.png');
+	background-image: url('http://localhost/celinacarvalho/templates/celina2/images/subitem-bg.png');
 	background-position: left top;
 	background-repeat: repeat-x;
 	border-width: 1px;
@@ -580,7 +580,7 @@ font-weight: normal;
 {
 	width: 18px;
 	height: 18px;
-	background-image: url('/olholatino/celinacarvalho/templates/celina2/images/Block-s.png');
+	background-image: url('http://localhost/celinacarvalho/templates/celina2/images/Block-s.png');
 }
 
 .art-Block-tl
@@ -616,7 +616,7 @@ font-weight: normal;
 	left: 9px;
 	right: 9px;
 	height: 18px;
-	background-image: url('/olholatino/celinacarvalho/templates/celina2/images/Block-h.png');
+	background-image: url('http://localhost/celinacarvalho/templates/celina2/images/Block-h.png');
 }
 
 .art-Block-tc
@@ -636,7 +636,7 @@ font-weight: normal;
 	top: 9px;
 	bottom: 9px;
 	width: 18px;
-	background-image: url('/olholatino/celinacarvalho/templates/celina2/images/Block-v.png');
+	background-image: url('http://localhost/celinacarvalho/templates/celina2/images/Block-v.png');
 }
 
 .art-Block-cr
@@ -699,7 +699,7 @@ font-weight: bold;
 	position:absolute;
 	z-index:-1;
 	height: 30px;
-	background-image: url('/olholatino/celinacarvalho/templates/celina2/images/BlockHeader.png');
+	background-image: url('http://localhost/celinacarvalho/templates/celina2/images/BlockHeader.png');
 }
 
 .art-BlockHeader .l
@@ -747,7 +747,7 @@ font-weight: bold;
 {
 	width: 18px;
 	height: 18px;
-	background-image: url('/olholatino/celinacarvalho/templates/celina2/images/BlockContent-s.png');
+	background-image: url('http://localhost/celinacarvalho/templates/celina2/images/BlockContent-s.png');
 }
 
 .art-BlockContent-tl
@@ -783,7 +783,7 @@ font-weight: bold;
 	left: 9px;
 	right: 9px;
 	height: 18px;
-	background-image: url('/olholatino/celinacarvalho/templates/celina2/images/BlockContent-h.png');
+	background-image: url('http://localhost/celinacarvalho/templates/celina2/images/BlockContent-h.png');
 }
 
 .art-BlockContent-tc
@@ -803,7 +803,7 @@ font-weight: bold;
 	top: 9px;
 	bottom: 9px;
 	width: 18px;
-	background-image: url('/olholatino/celinacarvalho/templates/celina2/images/BlockContent-v.png');
+	background-image: url('http://localhost/celinacarvalho/templates/celina2/images/BlockContent-v.png');
 }
 
 .art-BlockContent-cr
@@ -826,7 +826,7 @@ font-weight: bold;
 	left: 9px;
 	right: 9px;
 	bottom: 9px;
-	background-image: url('/olholatino/celinacarvalho/templates/celina2/images/BlockContent-c.png');
+	background-image: url('http://localhost/celinacarvalho/templates/celina2/images/BlockContent-c.png');
 }
 
 
@@ -878,7 +878,7 @@ text-decoration: none;
 .art-BlockContent-body ul li
 {
 	padding:0px 0 0px 18px;
-	background-image: url('/olholatino/celinacarvalho/templates/celina2/images/BlockContentBullets.png');
+	background-image: url('http://localhost/celinacarvalho/templates/celina2/images/BlockContentBullets.png');
 	background-repeat:no-repeat;
 	margin:0.5em 0 0.5em 0;
 	line-height:1.2em;
@@ -1232,7 +1232,7 @@ ol
 
 .art-Post ul li, .art-Post ol ul li 
 {
-	background-image: url('/olholatino/celinacarvalho/templates/celina2/images/PostBullets.png');
+	background-image: url('http://localhost/celinacarvalho/templates/celina2/images/PostBullets.png');
 	background-repeat:no-repeat;
 	padding-left:16px;
 }
@@ -1260,7 +1260,7 @@ blockquote,
 		margin:10px 10px 10px 50px;
 	padding:5px 5px 5px 28px;
 	background-color:#DDDADC;
-	background-image:url('/olholatino/celinacarvalho/templates/celina2/images/PostQuote.png');
+	background-image:url('http://localhost/celinacarvalho/templates/celina2/images/PostQuote.png');
 	background-position:left top;
 	background-repeat:no-repeat;
 }
@@ -1344,7 +1344,7 @@ font-weight: normal;
 	position:absolute;
 	z-index:-1;
 	height: 81px;
-	background-image: url('/olholatino/celinacarvalho/templates/celina2/images/Button.png');
+	background-image: url('http://localhost/celinacarvalho/templates/celina2/images/Button.png');
 }
 
 .art-button-wrapper .l
@@ -1397,7 +1397,7 @@ font-weight: normal;
 	position:absolute;
 	z-index:-1;
 	background-repeat:no-repeat;
-	background-image: url('/olholatino/celinacarvalho/templates/celina2/images/Footer.png');
+	background-image: url('http://localhost/celinacarvalho/templates/celina2/images/Footer.png');
 	width: 861px;
 	height: 150px;
 	bottom:0;
@@ -2030,7 +2030,7 @@ td.key
 	margin-top: -15px;
 	padding-top: 15px;
 	padding-bottom: 5px;
-	background: url(/olholatino/celinacarvalho/templates/system/images/selector-arrow.png) no-repeat;
+	background: url(http://localhost/celinacarvalho/templates/system/images/selector-arrow.png) no-repeat;
 }
 
 .tool-text
@@ -2047,7 +2047,7 @@ td.key
 
 #system-message dd.message ul
 {
-	background: #c3d2e5 url(/olholatino/celinacarvalho/templates/system/images/notice-info.png) 4px center no-repeat;
+	background: #c3d2e5 url(http://localhost/celinacarvalho/templates/system/images/notice-info.png) 4px center no-repeat;
 	border-top: 3px solid #de7a7b;
 	border-bottom: 3px solid #de7a7b;
 	margin:0px;
@@ -2059,7 +2059,7 @@ td.key
 #system-message dd.error ul
 {
 	color: #c00;
-	background: #e6c0c0 url(/olholatino/celinacarvalho/templates/system/images/notice-alert.png) 4px center no-repeat;
+	background: #e6c0c0 url(http://localhost/celinacarvalho/templates/system/images/notice-alert.png) 4px center no-repeat;
 	border-top: 3px solid #DE7A7B;
 	border-bottom: 3px solid #DE7A7B;
 	margin: 0px;
@@ -2071,7 +2071,7 @@ td.key
 #system-message dd.notice ul
 {
 	color: #c00;
-	background: #efe7b8 url(/olholatino/celinacarvalho/templates/system/images/notice-note.png) 4px center no-repeat;
+	background: #efe7b8 url(http://localhost/celinacarvalho/templates/system/images/notice-note.png) 4px center no-repeat;
 	border-top: 3px solid #f0dc7e;
 	border-bottom: 3px solid #f0dc7e;
 	margin: 0px;
@@ -2201,4 +2201,3 @@ font-family: Georgia, "Times New Roman", Times, Serif;
 {
 	background-image: none;
 }
-
