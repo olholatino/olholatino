@@ -4,15 +4,15 @@
 	<channel>
 		<title>Acervo Olho Latino</title>
 		<description><![CDATA[]]></description>
-		<link>http://localhost/acervo/index.php/component/content/?view=featured</link>
+		<link>index.php/component/content/?view=featured</link>
 		<lastBuildDate>Thu, 05 Feb 2026 22:40:42 +0000</lastBuildDate>
 		<generator>Joomla! - Open Source Content Management</generator>
 		<atom:link rel="self" type="application/rss+xml" href="http://localhost/acervo/index.php?format=feed&amp;type=rss"/>
 		<language>pt-br</language>
 		<item>
 			<title>Apresentação</title>
-			<link>http://localhost/acervo/index.php/9-uncategorised/531-apresentacao</link>
-			<guid isPermaLink="true">http://localhost/acervo/index.php/9-uncategorised/531-apresentacao</guid>
+			<link>index.php/9-uncategorised/531-apresentacao</link>
+			<guid isPermaLink="true">index.php/9-uncategorised/531-apresentacao</guid>
 			<description><![CDATA[<div class="feed-description"><div>&nbsp;</div>
 <div>É com imensa satisfação que apresentamos o site do Acervo Nacional do Museu Olho Latino, contando com 300 gravuras de 133 artistas, contendo fotos das obras e informações curriculares de seus autores. Apresentamos também o Catálogo Digital da Gravura Brasileira do Acervo Olho Latino, versão 2014, que, certamente, dará impulso para que novas versões aconteçam, conforme a inserção de novas gravuras à coleção. Para ficar mais acessível e com mais facilidade de se ler e apreciar o catálogo, optamos por colocar uma imagem de uma gravura de cada artista e no final a listagem geral das obras.</div>
 <div>&nbsp;</div>

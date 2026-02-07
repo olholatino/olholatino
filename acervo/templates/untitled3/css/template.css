@@ -1,13 +1,13 @@
 #art-main
 {
-  background: #CCC2AD url('http://localhost/acervo/templates/untitled3/images/page.png') fixed;
-  background: linear-gradient(top, rgba(212, 204, 187, 0.13) 0, rgba(212, 204, 187, 0.13) 420px, rgba(147, 129, 92, 0.07) 1050px) no-repeat, url('http://localhost/acervo/templates/untitled3/images/page.png'), linear-gradient(top, #CAC0AA 0, #CAC0AA 420px, #A18F68 1050px) no-repeat;
-  background: -webkit-linear-gradient(top, rgba(212, 204, 187, 0.13) 0, rgba(212, 204, 187, 0.13) 420px, rgba(147, 129, 92, 0.07) 1050px) no-repeat, url('http://localhost/acervo/templates/untitled3/images/page.png'), -webkit-linear-gradient(top, #CAC0AA 0, #CAC0AA 420px, #A18F68 1050px) no-repeat;
-  background: -moz-linear-gradient(top, rgba(212, 204, 187, 0.13) 0, rgba(212, 204, 187, 0.13) 420px, rgba(147, 129, 92, 0.07) 1050px) no-repeat, url('http://localhost/acervo/templates/untitled3/images/page.png'), -moz-linear-gradient(top, #CAC0AA 0, #CAC0AA 420px, #A18F68 1050px) no-repeat;
-  background: -o-linear-gradient(top, rgba(212, 204, 187, 0.13) 0, rgba(212, 204, 187, 0.13) 420px, rgba(147, 129, 92, 0.07) 1050px) no-repeat, url('http://localhost/acervo/templates/untitled3/images/page.png'), -o-linear-gradient(top, #CAC0AA 0, #CAC0AA 420px, #A18F68 1050px) no-repeat;
-  background: -ms-linear-gradient(top, rgba(212, 204, 187, 0.13) 0, rgba(212, 204, 187, 0.13) 420px, rgba(147, 129, 92, 0.07) 1050px) no-repeat, url('http://localhost/acervo/templates/untitled3/images/page.png'), -ms-linear-gradient(top, #CAC0AA 0, #CAC0AA 420px, #A18F68 1050px) no-repeat;
-  background: linear-gradient(top, rgba(212, 204, 187, 0.13) 0, rgba(212, 204, 187, 0.13) 420px, rgba(147, 129, 92, 0.07) 1050px) no-repeat, url('http://localhost/acervo/templates/untitled3/images/page.png'), linear-gradient(top, #CAC0AA 0, #CAC0AA 420px, #A18F68 1050px) no-repeat;
-  -svg-background: linear-gradient(top, rgba(212, 204, 187, 0.13) 0, rgba(212, 204, 187, 0.13) 420px, rgba(147, 129, 92, 0.07) 1050px) no-repeat, url('http://localhost/acervo/templates/untitled3/images/page.png'), linear-gradient(top, #CAC0AA 0, #CAC0AA 420px, #A18F68 1050px) no-repeat;
+  background: #CCC2AD url('templates/untitled3/images/page.png') fixed;
+  background: linear-gradient(top, rgba(212, 204, 187, 0.13) 0, rgba(212, 204, 187, 0.13) 420px, rgba(147, 129, 92, 0.07) 1050px) no-repeat, url('templates/untitled3/images/page.png'), linear-gradient(top, #CAC0AA 0, #CAC0AA 420px, #A18F68 1050px) no-repeat;
+  background: -webkit-linear-gradient(top, rgba(212, 204, 187, 0.13) 0, rgba(212, 204, 187, 0.13) 420px, rgba(147, 129, 92, 0.07) 1050px) no-repeat, url('templates/untitled3/images/page.png'), -webkit-linear-gradient(top, #CAC0AA 0, #CAC0AA 420px, #A18F68 1050px) no-repeat;
+  background: -moz-linear-gradient(top, rgba(212, 204, 187, 0.13) 0, rgba(212, 204, 187, 0.13) 420px, rgba(147, 129, 92, 0.07) 1050px) no-repeat, url('templates/untitled3/images/page.png'), -moz-linear-gradient(top, #CAC0AA 0, #CAC0AA 420px, #A18F68 1050px) no-repeat;
+  background: -o-linear-gradient(top, rgba(212, 204, 187, 0.13) 0, rgba(212, 204, 187, 0.13) 420px, rgba(147, 129, 92, 0.07) 1050px) no-repeat, url('templates/untitled3/images/page.png'), -o-linear-gradient(top, #CAC0AA 0, #CAC0AA 420px, #A18F68 1050px) no-repeat;
+  background: -ms-linear-gradient(top, rgba(212, 204, 187, 0.13) 0, rgba(212, 204, 187, 0.13) 420px, rgba(147, 129, 92, 0.07) 1050px) no-repeat, url('templates/untitled3/images/page.png'), -ms-linear-gradient(top, #CAC0AA 0, #CAC0AA 420px, #A18F68 1050px) no-repeat;
+  background: linear-gradient(top, rgba(212, 204, 187, 0.13) 0, rgba(212, 204, 187, 0.13) 420px, rgba(147, 129, 92, 0.07) 1050px) no-repeat, url('templates/untitled3/images/page.png'), linear-gradient(top, #CAC0AA 0, #CAC0AA 420px, #A18F68 1050px) no-repeat;
+  -svg-background: linear-gradient(top, rgba(212, 204, 187, 0.13) 0, rgba(212, 204, 187, 0.13) 420px, rgba(147, 129, 92, 0.07) 1050px) no-repeat, url('templates/untitled3/images/page.png'), linear-gradient(top, #CAC0AA 0, #CAC0AA 420px, #A18F68 1050px) no-repeat;
   background-attachment: fixed, fixed, fixed !important;
   margin: 0 auto;
   font-size: 13px;
@@ -370,7 +370,7 @@ li p, .art-postcontent li p, .art-blockcontent li p
   border: 1px solid rgba(169, 152, 117, 0.9);
   margin: 0 auto;
   height: 146px;
-  background-image: url('http://localhost/acervo/templates/untitled3/images/header.jpg');
+  background-image: url('templates/untitled3/images/header.jpg');
   background-position: 0 0;
   background-repeat: no-repeat;
   position: relative;
@@ -380,7 +380,7 @@ li p, .art-postcontent li p, .art-blockcontent li p
 
 .responsive .art-header
 {
-  background-image: url('http://localhost/acervo/templates/untitled3/images/header.jpg');
+  background-image: url('templates/untitled3/images/header.jpg');
   background-position: center center;
 }
 
@@ -615,7 +615,7 @@ ul.art-hmenu>li:before
   left: -9px;
   width: 9px;
   height: 40px;
-  background: url('http://localhost/acervo/templates/untitled3/images/menuseparator.png') center center no-repeat;
+  background: url('templates/untitled3/images/menuseparator.png') center center no-repeat;
 }
 
 ul.art-hmenu>li:first-child:before
@@ -739,7 +739,7 @@ ul.art-hmenu ul
   z-index: 10;
   left: 0;
   top: 0;
-  background-image: url('http://localhost/acervo/templates/untitled3/images/spacer.gif');
+  background-image: url('templates/untitled3/images/spacer.gif');
 }
 
 .desktop ul.art-hmenu>li>ul
@@ -927,7 +927,7 @@ div.art-block img
 
 .art-blockheader .t:before
 {
-  content: url('http://localhost/acervo/templates/untitled3/images/blockheadericon.png');
+  content: url('templates/untitled3/images/blockheadericon.png');
   margin-right: 6px;
   bottom: 3px;
   position: relative;
@@ -993,7 +993,7 @@ div.art-block img
 
 .art-block ul>li:before
 {
-  content: url('http://localhost/acervo/templates/untitled3/images/blockbullets.png');
+  content: url('templates/untitled3/images/blockbullets.png');
   margin-right: 6px;
   bottom: 2px;
   position: relative;
@@ -1230,7 +1230,7 @@ form.art-search input[type="submit"], input.art-search-button, a.art-search-butt
   left: auto;
   display: block;
   border: none;
-  background: url('http://localhost/acervo/templates/untitled3/images/searchicon.png') center center no-repeat;
+  background: url('templates/untitled3/images/searchicon.png') center center no-repeat;
   width: 24px;
   height: 100%;
   padding: 0;
@@ -1852,7 +1852,7 @@ pre
 
 .art-postdateicon:before
 {
-  content: url('http://localhost/acervo/templates/untitled3/images/postdateicon.png');
+  content: url('templates/untitled3/images/postdateicon.png');
   margin-right: 6px;
   position: relative;
   display: inline-block;
@@ -1869,7 +1869,7 @@ pre
 
 .art-postauthoricon:before
 {
-  content: url('http://localhost/acervo/templates/untitled3/images/postauthoricon.png');
+  content: url('templates/untitled3/images/postauthoricon.png');
   margin-right: 6px;
   position: relative;
   display: inline-block;
@@ -1886,7 +1886,7 @@ pre
 
 .art-postpdficon:before
 {
-  content: url('http://localhost/acervo/templates/untitled3/images/system/pdf_button.png');
+  content: url('templates/untitled3/images/system/pdf_button.png');
   margin-right: 6px;
   position: relative;
   display: inline-block;
@@ -1903,7 +1903,7 @@ pre
 
 .art-postediticon:before
 {
-  content: url('http://localhost/acervo/templates/untitled3/images/system/edit.png');
+  content: url('templates/untitled3/images/system/edit.png');
   margin-right: 6px;
   bottom: 2px;
   position: relative;
@@ -1920,7 +1920,7 @@ pre
 
 .art-postcontent ul>li:before, .art-post ul>li:before, .art-textblock ul>li:before
 {
-  content: url('http://localhost/acervo/templates/untitled3/images/postbullets.png');
+  content: url('templates/untitled3/images/postbullets.png');
   margin-right: 6px;
   bottom: 2px;
   position: relative;
@@ -1985,7 +1985,7 @@ pre
 
 blockquote
 {
-  background: #E4DED3 url('http://localhost/acervo/templates/untitled3/images/postquote.png') no-repeat scroll;
+  background: #E4DED3 url('templates/untitled3/images/postquote.png') no-repeat scroll;
   padding: 6px 6px 6px 43px;
   margin: 0 0 0 15px;
   color: #13110C;
@@ -2149,7 +2149,7 @@ blockquote p, .art-postcontent blockquote p, .art-blockcontent blockquote p, .ar
 
 .art-rss-tag-icon
 {
-  background: url('http://localhost/acervo/templates/untitled3/images/footerrssicon.png') no-repeat scroll;
+  background: url('templates/untitled3/images/footerrssicon.png') no-repeat scroll;
   margin: 0 auto;
   min-height: 32px;
   min-width: 32px;
@@ -2165,7 +2165,7 @@ blockquote p, .art-postcontent blockquote p, .art-blockcontent blockquote p, .ar
 
 .art-facebook-tag-icon
 {
-  background: url('http://localhost/acervo/templates/untitled3/images/footerfacebookicon.png') no-repeat scroll;
+  background: url('templates/untitled3/images/footerfacebookicon.png') no-repeat scroll;
   margin: 0 auto;
   min-height: 32px;
   min-width: 32px;
@@ -2181,7 +2181,7 @@ blockquote p, .art-postcontent blockquote p, .art-blockcontent blockquote p, .ar
 
 .art-twitter-tag-icon
 {
-  background: url('http://localhost/acervo/templates/untitled3/images/footertwittericon.png') no-repeat scroll;
+  background: url('templates/untitled3/images/footertwittericon.png') no-repeat scroll;
   margin: 0 auto;
   min-height: 32px;
   min-width: 32px;
@@ -2197,7 +2197,7 @@ blockquote p, .art-postcontent blockquote p, .art-blockcontent blockquote p, .ar
 
 .art-footer ul>li:before
 {
-  content: url('http://localhost/acervo/templates/untitled3/images/footerbullets.png');
+  content: url('templates/untitled3/images/footerbullets.png');
   margin-right: 6px;
   bottom: 2px;
   position: relative;
@@ -2301,7 +2301,7 @@ blockquote p, .art-postcontent blockquote p, .art-blockcontent blockquote p, .ar
 
 .art-lightbox-wrapper .loading
 {
-  background: #fff url('http://localhost/acervo/templates/untitled3/images/preloader-01.gif') center center no-repeat;
+  background: #fff url('templates/untitled3/images/preloader-01.gif') center center no-repeat;
   border: 1px solid #b4b4b4;
   border-radius: 10px;
   box-shadow: 0 2px 5px #333;

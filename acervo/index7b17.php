@@ -10,10 +10,10 @@
 	<link rel="self" type="application/atom+xml" href="http://localhost/acervo/index.php?format=feed&amp;type=atom"/>
 	<entry>
 		<title>Apresentação</title>
-		<link rel="alternate" type="text/html" href="http://localhost/acervo/index.php/9-uncategorised/531-apresentacao"/>
+		<link rel="alternate" type="text/html" href="index.php/9-uncategorised/531-apresentacao"/>
 		<published>2015-03-06T08:28:45+00:00</published>
 		<updated>2015-03-06T08:28:45+00:00</updated>
-		<id>http://localhost/acervo/index.php/9-uncategorised/531-apresentacao</id>
+		<id>index.php/9-uncategorised/531-apresentacao</id>
 		<author>
 			<name>Super User</name>
 			<email>lusans@gmail.com</email>
