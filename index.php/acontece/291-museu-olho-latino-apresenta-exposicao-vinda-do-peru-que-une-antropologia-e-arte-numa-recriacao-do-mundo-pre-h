@@ -50,7 +50,7 @@ div.k2TagCloudBlock a:hover,div.catItemTagsBlock ul.catItemTags li:hover, #k2Con
 #k2Container .button:active, .k2UserBlock .button:active, span.catItemAddLink a:active, span.userItemAddLink a:active, span.userItemEditLink a:active, span.catItemEditLink a:active, span.itemEditLink a:active {border-color: rgba(39,158,6,0.7);}
 div.k2CategoriesListBlock ul li.activeCategory > a {color:#279e06;}
 .module-content .k2TagCloudBlock a:hover, div.k2ItemsBlock ul li div.moduleItemTags a:hover, div.k2TagCloudBlock a:hover, div.catItemTagsBlock ul.catItemTags li:hover, #k2Container .button, span.catItemAddLink, span.userItemAddLink, span.userItemEditLink, span.catItemEditLink, span.itemEditLink, div.catItemTagsBlock ul.catItemTags li:hover, div.itemTagsBlock ul.itemTags li:hover, div.userItemTagsBlock ul.userItemTags li:hover, div.latestItemTagsBlock ul.latestItemTags li:hover {border-color: rgba(39,158,6,0.8);}
-#rt-logo {background: url(../images/logop.png) 50% 0 no-repeat !important;}
+#rt-logo {background: url(../../images/logop.png) 50% 0 no-repeat !important;}
 #rt-logo {width: 180px;height: 103px;}
 
   </style>
@@ -160,7 +160,7 @@ window.addEvent('load', function() {
 										<div class="module-content">
 	                	
 <ul class="menu">
-<li class="item-101"><a href="../../index.html" >Portal</a></li><li class="item-231"><a href="http://www.olholatino.com.br/site" target="_blank" >Museu Olho Latino</a></li><li class="item-232"><a href="http://www.olholatino.com.br/revistadigital" target="_blank" >Revista</a></li><li class="item-233"><a href="http://www.olholatino.com.br/paulocheidasans" target="_blank" >Paulo Cheida Sans</a></li></ul>
+<li class="item-101"><a href="../../index.html" >Portal</a></li><li class="item-231"><a href="../../site/index.html" target="_blank" >Museu Olho Latino</a></li><li class="item-232"><a href="../../revistadigital/index.html" target="_blank" >Revista</a></li><li class="item-233"><a href="../../paulocheidasans/index.html" target="_blank" >Paulo Cheida Sans</a></li></ul>
 						<div class="clear"></div>
 					</div>
 				</div>
@@ -194,7 +194,7 @@ window.addEvent('load', function() {
 
 
 <!-- google_ad_section_start -->
-<div style="font-family: Verdana, Arial, Helvetica, sans-serif; text-align: center;" align="center"><img src="../images/conteudo/2016/acontece/dioses_peru/VistaParcial.jpg" alt="Vista Parcial" width="600" height="337" /></div>
+<div style="font-family: Verdana, Arial, Helvetica, sans-serif; text-align: center;" align="center"><img src="../../images/conteudo/2016/acontece/dioses_peru/VistaParcial.jpg" alt="Vista Parcial" width="600" height="337" /></div>
 <div style="font-family: Verdana, Arial, Helvetica, sans-serif; text-align: center;" align="center"><span style="font-size: 8pt;">Vista parcial da mostra.</span></div>
 <div style="font-family: Verdana, Arial, Helvetica, sans-serif;" align="center"><span style="font-size: 8pt;">&nbsp;<strong>&nbsp;<br /></strong></span></div>
 <p style="font-family: Verdana, Arial, Helvetica, sans-serif;"><span style="font-size: 10pt;"><strong>Atibaia:</strong> O Museu Olho Latino expõe a mostra de gravuras “Dioses y Hombres de Huarochirí”, com obras feitas por alunos do 2º ano do Curso Básico de Arte e do 4º ano do Curso da Especialidade de Gravura da Faculdade de Arte e Desenho da Pontifícia Universidade Católica do Peru, de 08 a 20 de dezembro.</span></p>
@@ -212,7 +212,7 @@ window.addEvent('load', function() {
 <p style="font-family: Verdana, Arial, Helvetica, sans-serif;">&nbsp;</p>
 <p style="font-family: Verdana, Arial, Helvetica, sans-serif;">&nbsp;</p>
 <p style="font-family: Verdana, Arial, Helvetica, sans-serif;"><span style="font-size: 10pt;"><strong>Evento:</strong>&nbsp;“Comemoração dos 10 anos do Museu Olho Latino em Atibaia”.</span><br /><span style="font-size: 10pt;"><strong>Abertura:</strong>&nbsp;29 de outubro de 2016, às 19h.</span><br /><span style="font-size: 10pt;"><strong>Exposição:</strong>&nbsp;“Dioses y Hombres de Huarochirí – Gravuras de alunos do 2º do Curso Básico e da Especialidad de Grabado de la Facultad de Arte y Diseño de la Pontificia Universidad Católica del Perú.</span><br /><span style="font-size: 10pt;"><strong>Coordenadores do projeto:</strong>&nbsp;Olga Flores, Máximo Antezana e Maria del Pilar Fortunic.</span><br /><span style="font-size: 10pt;"><strong>Curadoria do Museu Olho Latino:</strong>&nbsp;Paulo Cheida Sans.</span><br /><span style="font-size: 10pt;"><strong>Período da mostra:</strong>&nbsp;08 a 20 de dezembro de 2016.</span><br /><span style="font-size: 10pt;"><strong>Visitação:</strong>&nbsp;de segunda a sexta-feira, das 9h às 16h.</span><br /><span style="font-size: 10pt;"><strong>Local:</strong>&nbsp;Museu Olho Latino no Centro de Convenções e Eventos “Victor Brecheret”</span><br /><span style="font-size: 10pt;"><strong>Endereço:</strong>&nbsp;Al. Lucas Nogueira Garcêz, 511 - Estância de Atibaia, SP.</span><br />Entrada Gratuita.</p>
-<p style="font-family: Verdana, Arial, Helvetica, sans-serif;">fonte: <a href="http://www.olholatino.com.br/">Portal Olho Latino</a></p> 
+<p style="font-family: Verdana, Arial, Helvetica, sans-serif;">fonte: <a href="../../index.html">Portal Olho Latino</a></p> 
 <!-- google_ad_section_end -->
  <div class='joomla_add_this'><!-- AddThis Button BEGIN -->
 <script type='text/javascript'>
@@ -307,7 +307,7 @@ ui_use_css:true}</script>
 							href="http://localhost/index.php/component/banners/click/2" target="_blank"
 							title="Livraria Cultura 2">
 							<img
-								src="../images/banners/banner cultura2.png"
+								src="../../images/banners/banner cultura2.png"
 								alt="Livraria Cultura 2"
 																							/>
 						</a>

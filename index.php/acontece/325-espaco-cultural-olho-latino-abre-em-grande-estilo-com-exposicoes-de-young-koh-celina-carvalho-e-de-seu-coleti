@@ -50,7 +50,7 @@ div.k2TagCloudBlock a:hover,div.catItemTagsBlock ul.catItemTags li:hover, #k2Con
 #k2Container .button:active, .k2UserBlock .button:active, span.catItemAddLink a:active, span.userItemAddLink a:active, span.userItemEditLink a:active, span.catItemEditLink a:active, span.itemEditLink a:active {border-color: rgba(39,158,6,0.7);}
 div.k2CategoriesListBlock ul li.activeCategory > a {color:#279e06;}
 .module-content .k2TagCloudBlock a:hover, div.k2ItemsBlock ul li div.moduleItemTags a:hover, div.k2TagCloudBlock a:hover, div.catItemTagsBlock ul.catItemTags li:hover, #k2Container .button, span.catItemAddLink, span.userItemAddLink, span.userItemEditLink, span.catItemEditLink, span.itemEditLink, div.catItemTagsBlock ul.catItemTags li:hover, div.itemTagsBlock ul.itemTags li:hover, div.userItemTagsBlock ul.userItemTags li:hover, div.latestItemTagsBlock ul.latestItemTags li:hover {border-color: rgba(39,158,6,0.8);}
-#rt-logo {background: url(../images/logop.png) 50% 0 no-repeat !important;}
+#rt-logo {background: url(../../images/logop.png) 50% 0 no-repeat !important;}
 #rt-logo {width: 180px;height: 103px;}
 
   </style>
@@ -160,7 +160,7 @@ window.addEvent('load', function() {
 										<div class="module-content">
 	                	
 <ul class="menu">
-<li class="item-101"><a href="../../index.html" >Portal</a></li><li class="item-231"><a href="http://www.olholatino.com.br/site" target="_blank" >Museu Olho Latino</a></li><li class="item-232"><a href="http://www.olholatino.com.br/revistadigital" target="_blank" >Revista</a></li><li class="item-233"><a href="http://www.olholatino.com.br/paulocheidasans" target="_blank" >Paulo Cheida Sans</a></li></ul>
+<li class="item-101"><a href="../../index.html" >Portal</a></li><li class="item-231"><a href="../../site/index.html" target="_blank" >Museu Olho Latino</a></li><li class="item-232"><a href="../../revistadigital/index.html" target="_blank" >Revista</a></li><li class="item-233"><a href="../../paulocheidasans/index.html" target="_blank" >Paulo Cheida Sans</a></li></ul>
 						<div class="clear"></div>
 					</div>
 				</div>
@@ -194,15 +194,15 @@ window.addEvent('load', function() {
 
 
 <!-- google_ad_section_start -->
-<p style="text-align: center;" dir="ltr"><img src="../images/conteudo/2020/abertura_espaco_olho_latino/young_koh_olholatino.jpg" alt="young koh olho latino" width="600" height="417" /><br />Young Koh.</p>
+<p style="text-align: center;" dir="ltr"><img src="../../images/conteudo/2020/abertura_espaco_olho_latino/young_koh_olholatino.jpg" alt="young koh olho latino" width="600" height="417" /><br />Young Koh.</p>
 <p><span style="font-size: 12pt;"><strong>Hortolândia:</strong> Com o intuito de reforçar o campo da extensão e da arte como experimentação, o Museu Olho Latino inaugura no dia 15 de fevereiro o seu Espaço Cultural Olho Latino em Hortolândia, SP. Esse espaço realiza saraus artísticos para pequenos públicos desde 2016 e agora reabre com espaços expositivos ampliados com três mostras conjuntas.</span></p>
 <p><span style="font-size: 12pt;">Para inaugurar esse espaço cultural, o Museu apresenta a mostra de longa duração “Montreal” com esculturas da artista Young Koh expostas em vários locais da chácara. A mostra é composta pelas séries escultóricas denominadas “Montreal” com 5 peças de latão em grande formato, “Essências” com obras em relevo feitas em pó de mármore e “Metamorfose” feitas com rebarbas de bronze.</span></p>
 <p><span style="font-size: 12pt;">Ao todo são cerca de 30 peças de esculturas que mostram a importância da artista, que conquistou o reconhecimento de seu país de origem, sendo condecorada pela Embaixada da Coréia do Sul no Brasil por mérito artístico em 1998. Em 2004 recebeu a distinção do Governo da Córeia do Sul como a escultora coreana de maior projeção no exterior no ano de 2004, tendo a sua obra incorporada ao acervo do Museu de Arte Contemporânea de Seul. Young é naturalizada brasileira e vive em Campinas. Participou de inúmeras exposições, como na mostra de reabertura do Museu de Arte Contemporânea de Campinas em 2007. Recebeu vários prêmios em Salões de Arte e expôs em vários locais, como na Capela do Morumbi em São Paulo, no Museu de Arte de Joinville, SC, Fundação Cultural de Blumenau, SC, Galeria Arte Aplicada e Galeria André, ambas de São Paulo.</span></p>
-<p style="text-align: center;"><img src="../images/conteudo/2020/abertura_espaco_olho_latino/cabides_do_coletivo_olho_latino_vista_parcial_olholatino.jpg" alt="cabides do coletivo olho latino vista parcial olholatino" width="600" height="450" /><br />"Cabides Cabíveis" - vista parcial.</p>
+<p style="text-align: center;"><img src="../../images/conteudo/2020/abertura_espaco_olho_latino/cabides_do_coletivo_olho_latino_vista_parcial_olholatino.jpg" alt="cabides do coletivo olho latino vista parcial olholatino" width="600" height="450" /><br />"Cabides Cabíveis" - vista parcial.</p>
 <p><span style="font-size: 12pt;">A outra exposição que inaugura a Galeria é “Cabides Cabíveis” do Coletivo Olho Latino. A mostra reúne obras com técnicas de gravura de modo expansivo que são sustentadas por cabides, formando um conjunto coeso com as características de criação de cada um dos expositores. Participam os seguintes artistas: Alex Roch, Bruno Nitz, Celina Carvalho, Cibele Marion Sisti, Larissa Leite Zanandréa, Maricel Fermoselli, Paulo Cheida Sans, Suely Arnaldo e Tiago Rego.</span></p>
 <p><span style="font-size: 12pt;">Composto por artistas professores residentes em Campinas e região, o Coletivo tem mantido uma participação importante e constante. Atualmente está participando da II Bienal de lo Inusitado na Galeria Tarsila do Amaral do Centro Cultural Brasil – Peru da Embaixada do Brasil no Peru, em Lima.</span></p>
 <p><span style="font-size: 12pt;">A outra mostra, exposta na Sala Acervo, é “Explosão”, composta por pinturas de Celina Carvalho, que pertencem ao Acervo Olho Latino. Celina é cofundadora e Diretora do Museu Olho Latino. Artista plástica de longa data, a sua primeira exposição aconteceu em meados da década de 70. Participou de importantes exposições internacionais, tais como: “7º Bharat Bhavan International Biennial of Print Art”, Índia; “Tokyo International Mini-Print” – Tama University – Tóquio, Japão; “Estampida” – Espaço Simón I. Patiño - La Paz – Bolívia; “Fronteras Nomades – Brasil, Chile e Peru” – Cusco, Santiago e Atibaia – Museu Olho Latino, SP; “Espacios Liberados - PUC Peru em Lima” e ICPNA - Instituto Cultural Peruano Norte-Americano, Lima – Peru.</span></p>
-<p style="text-align: center;"><img src="../images/conteudo/2020/abertura_espaco_olho_latino/explosao_pintura_de_celina_carvalho_olholatino.jpg" alt="explosao pintura de celina carvalho olholatino" width="490" height="600" /><br />"Explosão" - pintura de Celina Carvalho.</p>
+<p style="text-align: center;"><img src="../../images/conteudo/2020/abertura_espaco_olho_latino/explosao_pintura_de_celina_carvalho_olholatino.jpg" alt="explosao pintura de celina carvalho olholatino" width="490" height="600" /><br />"Explosão" - pintura de Celina Carvalho.</p>
 <p><span style="font-size: 12pt;">O Museu de Arte Olho Latino tem sede de exposições na cidade de Atibaia, SP, desde 2006, onde mantém a realização de mostras periódicas de importantes artistas na área da gravura.</span></p>
 <p><span style="font-size: 12pt;">Para o curador Paulo Cheida Sans é importante que a ação cultural de extensão do Museu Olho Latino aconteça em espaço polivalente para promover saraus e experimentações como performances e instalações, abrangendo variadas modalidades de expressão artística. Desse modo, o Espaço Cultural Olho Latino em Hortolândia vem a colaborar para a expansão de uma arte autêntica e original.</span></p>
 <p><span style="font-size: 12pt;">A abertura das três exposições acontece no próximo dia 15 de fevereiro, às 15h, no Espaço Cultural Olho Latino situado na Av. das Melissas, 357, no Jardim Boa Vista em Hortolândia, SP. As exposições poderão ser visitadas até 14 de março, nas tardes de sábado, com agendamento prévio pelo e-mail: 
@@ -364,7 +364,7 @@ ui_use_css:true}</script>
 							href="http://www.livrariacultura.com.br/p/fundamentos-para-o-ensino-das-artes-plasticas-1039819?id_link=200023788" target="_blank"
 							title="Livraria Cultura 2">
 							<img
-								src="../images/banners/banner cultura2.png"
+								src="../../images/banners/banner cultura2.png"
 								alt="Livraria Cultura 2"
 																							/>
 						</a>

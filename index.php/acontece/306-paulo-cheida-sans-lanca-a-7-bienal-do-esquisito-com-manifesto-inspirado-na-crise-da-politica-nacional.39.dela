@@ -50,7 +50,7 @@ div.k2TagCloudBlock a:hover,div.catItemTagsBlock ul.catItemTags li:hover, #k2Con
 #k2Container .button:active, .k2UserBlock .button:active, span.catItemAddLink a:active, span.userItemAddLink a:active, span.userItemEditLink a:active, span.catItemEditLink a:active, span.itemEditLink a:active {border-color: rgba(39,158,6,0.7);}
 div.k2CategoriesListBlock ul li.activeCategory > a {color:#279e06;}
 .module-content .k2TagCloudBlock a:hover, div.k2ItemsBlock ul li div.moduleItemTags a:hover, div.k2TagCloudBlock a:hover, div.catItemTagsBlock ul.catItemTags li:hover, #k2Container .button, span.catItemAddLink, span.userItemAddLink, span.userItemEditLink, span.catItemEditLink, span.itemEditLink, div.catItemTagsBlock ul.catItemTags li:hover, div.itemTagsBlock ul.itemTags li:hover, div.userItemTagsBlock ul.userItemTags li:hover, div.latestItemTagsBlock ul.latestItemTags li:hover {border-color: rgba(39,158,6,0.8);}
-#rt-logo {background: url(../images/logop.png) 50% 0 no-repeat !important;}
+#rt-logo {background: url(../../images/logop.png) 50% 0 no-repeat !important;}
 #rt-logo {width: 180px;height: 103px;}
 
   </style>
@@ -160,7 +160,7 @@ window.addEvent('load', function() {
 										<div class="module-content">
 	                	
 <ul class="menu">
-<li class="item-101"><a href="../../index.html" >Portal</a></li><li class="item-231"><a href="http://www.olholatino.com.br/site" target="_blank" >Museu Olho Latino</a></li><li class="item-232"><a href="http://www.olholatino.com.br/revistadigital" target="_blank" >Revista</a></li><li class="item-233"><a href="http://www.olholatino.com.br/paulocheidasans" target="_blank" >Paulo Cheida Sans</a></li></ul>
+<li class="item-101"><a href="../../index.html" >Portal</a></li><li class="item-231"><a href="../../site/index.html" target="_blank" >Museu Olho Latino</a></li><li class="item-232"><a href="../../revistadigital/index.html" target="_blank" >Revista</a></li><li class="item-233"><a href="../../paulocheidasans/index.html" target="_blank" >Paulo Cheida Sans</a></li></ul>
 						<div class="clear"></div>
 					</div>
 				</div>
@@ -194,7 +194,7 @@ window.addEvent('load', function() {
 
 
 <!-- google_ad_section_start -->
-<p style="font-family: Verdana, Arial, Helvetica, sans-serif;" align="center"><img src="../../../www.olholatino.com.br/images/conteudo/newsletter/2017/CuradorPauloCheida_p.jpg" alt="CuradorPauloCheida p" width="500" height="889" /><a href="http://www.olholatino.com.br/" target="_blank"><br /></a><span style="font-size: 8pt;">Curador Paulo Cheida Sans.<br /></span>&nbsp;</p>
+<p style="font-family: Verdana, Arial, Helvetica, sans-serif;" align="center"><img src="../../../www.olholatino.com.br/images/conteudo/newsletter/2017/CuradorPauloCheida_p.jpg" alt="CuradorPauloCheida p" width="500" height="889" /><a href="../../index.html" target="_blank"><br /></a><span style="font-size: 8pt;">Curador Paulo Cheida Sans.<br /></span>&nbsp;</p>
 <p style="font-family: Verdana, Arial, Helvetica, sans-serif;"><span style="font-size: 10pt;">Paulo Cheida Sans, curador do Museu Olho Latino, lança tema que serve de inspiração para os artistas participarem da 7ª Bienal do Esquisito, que acontece em novembro na sede do Museu em Atibaia, SP, e na Chácara Olho Latino, Núcleo de Arte situado em Hortolândia, SP.</span></p>
 <p style="font-family: Verdana, Arial, Helvetica, sans-serif;"><span style="font-size: 10pt;">O tema do evento é “A mente do espantalho que não mente”. Trata-se de uma abordagem sobre o funcionamento mental da “verdade” na atualidade. Paulo Cheida diz que mesmo que o tema tenha sido inspirado na situação política nacional atual, numa espécie de comédia trágica onde parece ser escasso encontrar a verdade, o tema servirá para impulsionar a criação de obras ficcionais dos artistas.</span></p>
 <p style="font-family: Verdana, Arial, Helvetica, sans-serif;"><span style="font-size: 10pt;">O evento é um Festival de Arte Contemporânea que reunirá obras das mais variadas possibilidades expressivas das Artes Visuais. Desde o início, os temas sugeridos pelo curador para as Bienais do Esquisito causaram estímulo entre os artistas participantes. Temas como “A moda da anti-moda”, a “Emenda da churrasqueira”, o “Enterro da sardinha”, a “Poética do nada”, “Aqui já é lá!” e “A face oculta de um acéfalo” trouxeram uma sinergia para a sequência das Bienais que têm como objetivo unir o público infantil, adolescente e adulto para conhecer e vibrar com a criatividade dos expositores.</span></p>
@@ -299,7 +299,7 @@ ui_use_css:true}</script>
 							href="http://localhost/index.php/component/banners/click/2" target="_blank"
 							title="Livraria Cultura 2">
 							<img
-								src="../images/banners/banner cultura2.png"
+								src="../../images/banners/banner cultura2.png"
 								alt="Livraria Cultura 2"
 																							/>
 						</a>
