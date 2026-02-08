@@ -12,7 +12,7 @@
 			<title>Acontece</title>
 			<link>http://localhost/site/index.php?option=com_content&amp;view=article&amp;id=52:acontece&amp;catid=40:pagina-principal</link>
 			<guid>http://localhost/site/index.php?option=com_content&amp;view=article&amp;id=52:acontece&amp;catid=40:pagina-principal</guid>
-			<description><![CDATA[<div style="text-align: center;"><a style="color: #23803f; text-align: center;" href="../index.php/acontece/281-museu-olho-latino-expoe-xilogravuras-de-helio-schonmann" target="_blank"><img src="http://olholatino.com.br/media/rokgallery/a/a2a334a2-6b1e-4acb-8739-cd049e08bd3f/069a0d60-2981-46b9-d8f4-7c6198395f91.jpg" alt="helio schonmann museu olho latino gravura curadoria paulo cheida sans" width="150" /></a></div>
+			<description><![CDATA[<div style="text-align: center;"><a style="color: #23803f; text-align: center;" href="../index.php/acontece/281-museu-olho-latino-expoe-xilogravuras-de-helio-schonmann" target="_blank"><img src="../media/rokgallery/a/a2a334a2-6b1e-4acb-8739-cd049e08bd3f/069a0d60-2981-46b9-d8f4-7c6198395f91.jpg" alt="helio schonmann museu olho latino gravura curadoria paulo cheida sans" width="150" /></a></div>
 <div><strong>Museu Olho Latino expõe xilogravuras de Hélio Schonmann</strong></div>
 <div><strong><a href="../index.php/acontece/281-museu-olho-latino-expoe-xilogravuras-de-helio-schonmann">&nbsp;</a></strong></div>
 <div>A mostra “Xilogravuras” do artista plástico Hélio Schonmann está em exposição de 06 a 26 de outubro no Museu Olho Latino. A curadoria é do prof. Dr. Paulo Cheida Sans.</div>
