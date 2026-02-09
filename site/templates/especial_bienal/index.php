@@ -108,8 +108,8 @@ artxComponentWrapper($document);
 
   <?php else: ?>
   <?php echo artxModules($document, 'copyright', 'art-nostyle'); ?>
-  <?php endif; ?><span style="font-size: 10pt;"><b>Portal Olho Latino:</b>  . <a href="http://www.olholatino.com.br/site">Museu</a> . 
-<a href="http://www.olholatino.com.br/revistadigital">Revista</a> . <a href="http://www.olholatino.com.br/paulocheidasans">Site Paulo Cheida Sans</a></span>
+  <?php endif; ?><span style="font-size: 10pt;"><b>Portal Olho Latino:</b>  . <a href="../../index.html">Museu</a> . 
+<a href="../../revistadigital">Revista</a> . <a href="../../paulocheidasans">Site Paulo Cheida Sans</a></span>
 </div>
  <div class="art-Footer-background"></div>
 </div>

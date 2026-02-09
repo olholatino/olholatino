@@ -111,7 +111,7 @@ artxComponentWrapper($document);
  <div class="art-Footer-inner">
   <div class="art-Footer-text">
   <?php if (artxCountModules($document, 'copyright') == 0): ?>
-<p style="text-align: center;"><strong>Portal Olho Latino:</strong> . <a href="http://www.olholatino.com.br/site" target="_blank">Museu</a> . <a href="../revistadigital" target="_blank">Revista</a> . <a href="../paulocheidasans" target="_blank">Site Paulo Cheida Sans</a></p>
+<p style="text-align: center;"><strong>Portal Olho Latino:</strong> . <a href="../../index.html" target="_blank">Museu</a> . <a href="../revistadigital" target="_blank">Revista</a> . <a href="../paulocheidasans" target="_blank">Site Paulo Cheida Sans</a></p>
 
   <?php else: ?>
   <?php echo artxModules($document, 'copyright', 'art-nostyle'); ?>
