@@ -10,7 +10,7 @@
 	<link rel="self" type="application/atom+xml" href="http://localhost/index.php/acontece?format=feed&amp;type=atom"/>
 	<entry>
 		<title>Espaço Cultural Olho Latino abre em grande estilo com exposições de Young Koh, Celina Carvalho e de seu Coletivo</title>
-		<link rel="alternate" type="text/html" href="http://localhost/index.php/acontece/325-espaco-cultural-olho-latino-abre-em-grande-estilo-com-exposicoes-de-young-koh-celina-carvalho-e-de-seu-coletivo"/>
+		<link rel="alternate" type="text/html" href="acontece/325-espaco-cultural-olho-latino-abre-em-grande-estilo-com-exposicoes-de-young-koh-celina-carvalho-e-de-seu-coletivo"/>
 		<published>2020-02-13T10:40:25-02:00</published>
 		<updated>2020-02-13T10:40:25-02:00</updated>
 		<id>http://localhost/index.php/acontece/325-espaco-cultural-olho-latino-abre-em-grande-estilo-com-exposicoes-de-young-koh-celina-carvalho-e-de-seu-coletivo</id>
@@ -54,7 +54,7 @@
 	</entry>
 	<entry>
 		<title>Transmutação da Verdade é a nova exposição do Museu Olho Latino</title>
-		<link rel="alternate" type="text/html" href="http://localhost/index.php/acontece/324-transmutacao-da-verdade-e-a-nova-exposicao-do-museu-olho-latino"/>
+		<link rel="alternate" type="text/html" href="acontece/324-transmutacao-da-verdade-e-a-nova-exposicao-do-museu-olho-latino"/>
 		<published>2019-12-13T15:43:32-02:00</published>
 		<updated>2019-12-13T15:43:32-02:00</updated>
 		<id>http://localhost/index.php/acontece/324-transmutacao-da-verdade-e-a-nova-exposicao-do-museu-olho-latino</id>
@@ -94,7 +94,7 @@
 	</entry>
 	<entry>
 		<title>Museu Olho Latino expõe mostra em homenagem ao México</title>
-		<link rel="alternate" type="text/html" href="http://localhost/index.php/acontece/323-museu-olho-latino-expoe-mostra-em-homenagem-ao-mexico"/>
+		<link rel="alternate" type="text/html" href="acontece/323-museu-olho-latino-expoe-mostra-em-homenagem-ao-mexico"/>
 		<published>2019-12-12T23:48:38-02:00</published>
 		<updated>2019-12-12T23:48:38-02:00</updated>
 		<id>http://localhost/index.php/acontece/323-museu-olho-latino-expoe-mostra-em-homenagem-ao-mexico</id>
@@ -130,7 +130,7 @@
 	</entry>
 	<entry>
 		<title>Paulo Cheida participa de exposição na Universidade de Brasília</title>
-		<link rel="alternate" type="text/html" href="http://localhost/index.php/acontece/322-paulo-cheida-participa-de-exposicao-na-universidade-de-brasilia"/>
+		<link rel="alternate" type="text/html" href="acontece/322-paulo-cheida-participa-de-exposicao-na-universidade-de-brasilia"/>
 		<published>2019-11-19T23:25:47-02:00</published>
 		<updated>2019-11-19T23:25:47-02:00</updated>
 		<id>http://localhost/index.php/acontece/322-paulo-cheida-participa-de-exposicao-na-universidade-de-brasilia</id>
@@ -172,7 +172,7 @@
 	</entry>
 	<entry>
 		<title>Museu Olho Latino expõe a mostra Sudaca com gravuras do Brasil e Chile</title>
-		<link rel="alternate" type="text/html" href="http://localhost/index.php/acontece/321-museu-olho-latino-expoe-a-mostra-sudaca-com-gravuras-do-brasil-e-chile"/>
+		<link rel="alternate" type="text/html" href="acontece/321-museu-olho-latino-expoe-a-mostra-sudaca-com-gravuras-do-brasil-e-chile"/>
 		<published>2019-10-27T14:27:35-02:00</published>
 		<updated>2019-10-27T14:27:35-02:00</updated>
 		<id>http://localhost/index.php/acontece/321-museu-olho-latino-expoe-a-mostra-sudaca-com-gravuras-do-brasil-e-chile</id>
